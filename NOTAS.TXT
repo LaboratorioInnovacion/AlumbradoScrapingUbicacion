@@ -1,0 +1,1170 @@
+campos de el excel: ubicacion, incidente, tipo de incidente,Nro. Incidente 11465153, observaciones, imagen, informacion 
+hacer una accion que desde el excel se cambie el estado de el incidente por id, desplegable con opciones de: se reparo a cometida, se cambio morceto, se cambio fusible, 
+se retiro artefacto, se instalo artefacto, se instalo artefacto completo
+otro campo para observaciones: campo de texto
+[
+  {
+    "id": 11465374,
+    "fechaAlta": "24/01/2026 00:28",
+    "observaciones": "B° Portal del Norte 1, calle Volcán Lastarria, entre cerro Tres Cruces y Cerro Solo.",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal 3 ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4193665",
+    "longitud": "-65.7727486",
+    "posicionTrayectoria": 12,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769225301000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100321,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465342,
+    "fechaAlta": "24/01/2026 00:03",
+    "observaciones": "B° Portal de Norte, calle San Francisco entre Cerro Solo y Cerro Galán ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4215961",
+    "longitud": "-65.7719077",
+    "posicionTrayectoria": 7,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769223814000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100296,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465360,
+    "fechaAlta": "24/01/2026 00:12",
+    "observaciones": "2 postes sin iluminación. B° Portal del Norte, calle Volcán Inca Huasi, entre av. San Juan y cerro Monte Piscis. ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal  ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4206171",
+    "longitud": "-65.7759659",
+    "posicionTrayectoria": 8,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769224355000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100312,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465158,
+    "fechaAlta": "23/01/2026 23:51",
+    "observaciones": "B° Portal del Norte, calle Sierra Chango Real, entre volcán Inca Huasi y volcán San Francisco. ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4218049",
+    "longitud": "-65.7676168",
+    "posicionTrayectoria": 6,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769223098000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100280,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465089,
+    "fechaAlta": "23/01/2026 23:10",
+    "observaciones": "B° Portal del Norte, calle San Juan, entre portal 4 y portal 5. ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "San Juan Bautista ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4194185",
+    "longitud": "-65.7767013",
+    "posicionTrayectoria": 1,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769220656000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100221,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465367,
+    "fechaAlta": "24/01/2026 00:20",
+    "observaciones": "B° Portal del Norte, calle volcán Bayo Gorbea, entre Sierra de Quilmes y Sierra Nevada. ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.420053401845763",
+    "longitud": "-65.76863146579853",
+    "posicionTrayectoria": 9,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769224820000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100316,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465153,
+    "fechaAlta": "23/01/2026 23:49",
+    "observaciones": "B° Portal del Norte, calle Sierra Chango Real entre volcán Dos Conos y volcán Lastarria",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.419342",
+    "longitud": "-65.7672885",
+    "posicionTrayectoria": 5,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769222941000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100278,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465370,
+    "fechaAlta": "24/01/2026 00:23",
+    "observaciones": "calle volcán bayo gorbea entre calle cerro monte piscis y cerro tres cruces ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal 4 ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4194398",
+    "longitud": "-65.7753343",
+    "posicionTrayectoria": 10,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769225034000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100318,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465140,
+    "fechaAlta": "23/01/2026 23:41",
+    "observaciones": "B° Portal del Norte, calle Sierra Nevada entre volcán San Francisco y volcán Walter Penk. ",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26599,
+      "descripcion": "Poste/ brazo averiado",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4222876",
+    "longitud": "-65.7703245",
+    "posicionTrayectoria": 3,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769222501000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100266,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465146,
+    "fechaAlta": "23/01/2026 23:46",
+    "observaciones": "B° Portal del Norte, calle Volcán San Ojo del Salado, entre calle Sierra de Quilmes y Sierra de Chango Real.",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4190873",
+    "longitud": "-65.7678322",
+    "posicionTrayectoria": 4,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769222772000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100271,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465371,
+    "fechaAlta": "24/01/2026 00:25",
+    "observaciones": "Barrio: Portal del Norte, calle Volcán Bayo Gorbea entre Cerro Monte Piscis y Cerro Tres Cruces.",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26603,
+      "descripcion": "Otros",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal Belgica ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4194871",
+    "longitud": "-65.7751902",
+    "posicionTrayectoria": 11,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769225147000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100319,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  },
+  {
+    "id": 11465095,
+    "fechaAlta": "23/01/2026 23:14",
+    "observaciones": "B° Portal del Norte, calle Portal 1 entre Portal Bélgica y San Juan Bautista. 2 luminarias que no funcionan",
+    "prioridad": {
+      "id": 2,
+      "descripcion": "Media"
+    },
+    "areaServicio": {
+      "id": 4814,
+      "color": "#fd0808",
+      "descripcion": "Alumbrado",
+      "icono": {
+        "id": 1,
+        "url": "https://munidigital.com/app/img/markers/marker-bordeaux.png"
+      }
+    },
+    "tipoIncidente": {
+      "id": 26598,
+      "descripcion": "Luminaria no funciona",
+      "tipoServicio": {
+        "id": 1,
+        "descripcion": "Reclamo"
+      },
+      "tipoIdentificadorAsociados": []
+    },
+    "estado": {
+      "id": 6,
+      "descripcion": "Notificado en OT",
+      "tipo": null
+    },
+    "origen": {
+      "id": 3,
+      "descripcion": "App Ciudadano",
+      "colorOrigen": "#33FF42"
+    },
+    "direccion": "Portal 1 ",
+    "barrio": "-",
+    "localidad": "Catamarca",
+    "provincia": "Catamarca",
+    "pais": "Argentina",
+    "latitud": "-28.4180217",
+    "longitud": "-65.7753502",
+    "posicionTrayectoria": 2,
+    "distancia": null,
+    "nroOrden": 720536,
+    "fechaCreacion": 1769220853000,
+    "fechaActualizacion": "27/01/2026 07:44",
+    "creadoPor": "Ciudadanocat",
+    "actualizadoPor": "anieva",
+    "zona": {
+      "id": 450,
+      "descripcion": "Catamarca"
+    },
+    "barrioUbicacion": {
+      "id": 1776,
+      "descripcion": "Manuel de Salazar"
+    },
+    "contRepeticiones": 1,
+    "otros": null,
+    "identificador": null,
+    "bloqueado": false,
+    "zonaAdministrativa": null,
+    "municipio": {
+      "id": 141,
+      "descripcion": "Catamarca",
+      "leyenda": "Municipalidad de Catamarca",
+      "provinciaId": 27,
+      "latitud": "-28.469392",
+      "longitud": "-65.779099",
+      "color": "#0163DB",
+      "nombreUnico": "Catamarca",
+      "zonaHorariaId": null,
+      "direccion": null,
+      "referenciaDireccion": null,
+      "telefono": null,
+      "nivelCiudadano": null,
+      "provincia": {
+        "id": 27,
+        "descripcion": "Catamarca",
+        "pais": {
+          "id": 1,
+          "descripcion": "Argentina",
+          "gentilicio": null
+        }
+      }
+    },
+    "adjuntos": [
+      {
+        "id": 4100226,
+        "nombreAdjunto": "imagen1.jpg",
+        "url": "https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141"
+      }
+    ],
+    "archivos": [],
+    "historicos": []
+  }
+]

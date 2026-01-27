@@ -1,0 +1,970 @@
+<!DOCTYPE html><html class="js" lang=""><head>
+        <!-- Google Tag Manager -->
+        <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PQ0NY7NY8L&amp;cx=c&amp;_slc=1"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="https://scripts.clarity.ms/0.8.51/clarity.js"></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/l7ygjq1tig?ref=gtm"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-EBM4HR5XGT&amp;cx=c&amp;gtm=4e61n1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NDM2SXLG"></script><script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-NDM2SXLG');
+        </script>
+        <!-- End Google Tag Manager -->
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <title>MuniDigital</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="importmap-type" content="systemjs-importmap">
+        <link rel="stylesheet" href="styles/fdcfe523.main.css">
+    <style type="text/css">.fancybox-margin{margin-right:0px;}</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/10a/intl/es_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/10a/intl/es_ALL/util.js"></script></head>
+    <body class="back_inside">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDM2SXLG height="0" width="0"
+                style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!--[if lt IE 10]>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a> to
+                improve your experience.
+            </p>
+        <![endif]-->
+
+        <div id="layout">
+          <section id="header-section" class=""><div><div id="header-container" class="header-bg" style="background: rgb(1, 99, 219);">
+    <div class="header-municipio">      
+        <span class="header-municipio-nombre">Municipalidad de Catamarca</span>
+    </div>
+    <div class="header-user-options">
+        <div class="header-home c-pointer" style="display: none;">
+            <img src="img/dashboard/home-icon.svg" style="width: 24px;" alt="Imagen dashboard">
+        </div>
+        <div class="header-dashboard c-pointer" style="display: none;">
+            <img src="img/dashboard/dashboard-icon.svg" alt="Imagen dashboard" style="width: 23px;">
+        </div>
+        <div class="header-notificaciones">
+            <img src="img/notification-trazado.png" alt="Imagen notificacion" id="campana-notification">
+            <img src="img/notification-badge.png" alt="badge notificacion" id="badge-notification">
+            <div class="header-notificaciones-div" id="headerNotificaciones" style="display: none;">
+                <div class="header-notificaciones-triangulo">▲</div>
+                <div class="header-notificaciones-container">
+                    <h3>Notificaciones
+                        <img id="cerrarNotificaciones" src="img/times-solid.svg" alt="boton cerrar" title="Cerrar">
+                        <span id="marcarTodoLeido">Marcar todo como leído</span>
+                        <span id="buscarMensajes">Buscar más mensajes</span>
+                    </h3>
+                    <div class="header-notificaciones-incidentes"></div>
+                    <p id="sin-notificaciones">Sin notificaciones</p>
+                    <div class="custom-loading"><div></div><div></div><div></div><div></div></div>
+                    <div class="header-notificaciones-mensajes"></div>
+                    <h4 id="ver-todas">Ver Todas</h4>
+                    </div>
+                </div>
+            </div>
+        <nav id="usuarioPerfil">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="img/user-icon-2.png" alt="Imagen usuario" class="header-perfil-img">
+                <span id="header-usuario">aalvarez</span>
+            </a>
+            <ul class="dropdown-menu">
+                <li class="usuario-perfil-opcion"><a href="#configuracion/password" id="changePassword">Cambiar Contraseña</a></li>
+                <li class="usuario-perfil-opcion"><a id="logOut" href="#logout">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</div></section>
+          <section id="sidebar-section" class=""><div><!-- <div class="texto-background">
+    <div>
+        <img id="logoMuniBlanco" src='img/Hor_Blanco.png'/>
+        <p>La gestión en tus manos</p>
+    </div>
+    <div>
+        <img id="phoneImage" src="img/phone_image.png">
+    </div>
+</div> -->
+<div id="sidebarCollapse" class="close-btn close-lock-btn" title="Contraer"></div>
+<div id="sidebar-container" data-status="opened">
+    <div class="sidebar-title">
+        <div class="sidebar-modulos-container scrollbarMenuLateral">
+            <div id="moduloGestion" class="sidebar-modulos sidebar-modulo-inactivo">
+                <div><img class="sidebar-img" src="img/modulo-gestion.png"></div>
+                <div><b>MUNI</b> Gestión</div>
+            </div>
+            <div id="moduloTramites" class="sidebar-modulos sidebar-modulo-inactivo">
+                <div><img class="sidebar-img" src="img/munitramites.png"></div>
+                <div><b>MUNI</b> Trámites</div>
+            </div>
+            <div id="moduloObras" class="sidebar-modulos sidebar-modulo-inactivo">
+                <div><img class="sidebar-img" src="img/modulo-obras.png"></div>
+                <div><b>MUNI</b> Obras</div>
+            </div>
+            <div id="moduloSocial" class="sidebar-modulos sidebar-modulo-inactivo">
+                <div><img class="sidebar-img" src="img/modulo-social.png"></div>
+                <div><b>MUNI</b> Social</div>
+            </div>
+            <div id="moduloSeguridad" class="sidebar-modulos sidebar-modulo-inactivo">
+                <div><img class="sidebar-img" src="img/modulo-seguridad.png"></div>
+                <div><b>MUNI</b> Seguridad</div>
+            </div>
+            <div id="moduloMuniIOT" style="display: none;">
+                <div><img style="width: 40px; scale: 1.3;" class="sidebar-img" src="img/modulo-iot.svg"></div>
+                <div><b>MUNI</b> IOT</div>
+            </div>
+        </div>
+    </div>
+    <form autocomplete="off" action="">
+        <div id="searchFilter" class="autocomplete">
+            <img id="imgBuscar" src="img/search-icon-16.png" alt="">
+            <input type="text" placeholder="Buscar...">
+            <img id="imgBorrar" src="img/x-icon.png" alt="" style="display: none;">
+            <p id="sinResultados" style="display: none;">No se encontraron resultados</p>
+        </div>
+        <div class="resultados-busqueda" style="display: none;"><ul id="titulo-0">Incidentes<li data-url="incidentes/add">Registrar Incidente<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/add/v2">Registro Rapido<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/search/v2">Consultar Incidente<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/derivaciones">Consultar Derivaciones<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/reclamos">Consultar Reclamos<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/consultar-social">Consultar Solicitudes<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/search/administrativo">Consulta Administrativa<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/consolidado-diario">Consultar Consolidado Diario<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes/crear">Registro de Incidente por Activo<span class="menu-oculto">Incidentes</span></li><li data-url="incidentes-identificador/search">Consulta de Incidente<span class="menu-oculto">Incidentes</span></li><li data-url="planificador-tareas">Planificador de Tareas<span class="menu-oculto">Incidentes</span></li><li data-url="planificador-general">Planificador General de Tareas<span class="menu-oculto">Incidentes</span></li></ul><ul id="titulo-1">Ordenes de Constatación<li data-url="orden-constatacion/create">Generar Ordenes de Constatación<span class="menu-oculto">Ordenes de Constatación</span></li><li data-url="orden-constatacion/search">Consultar Ordenes de Constatación<span class="menu-oculto">Ordenes de Constatación</span></li><li data-url="denuncia-privada/search-con-acta">Consultar Denuncias Privadas con Acta de Constatación<span class="menu-oculto">Ordenes de Constatación</span></li></ul><ul>Reporte Recursos Tributarios<li data-url="reportes/recursos-tributarios">Reporte Recursos Tributarios</li></ul><ul>Encuestas<li data-url="incidentes/encuestas">Encuestas</li></ul><ul>Seguridad Ciudadana<li data-url="seguridadciudadana">Seguridad Ciudadana</li></ul><ul>Monitoreo<li data-url="monitoreo">Monitoreo</li></ul><ul id="titulo-6">Denuncia<li data-url="denuncias/add">Registrar Denuncia<span class="menu-oculto">Denuncia</span></li><li data-url="denuncias/search">Consultar Denuncia<span class="menu-oculto">Denuncia</span></li></ul><ul id="titulo-7">Documento Contable<li data-url="documentocontable/add">Registrar Documento Contable<span class="menu-oculto">Documento Contable</span></li><li data-url="documentocontable/search">Consultar Documento Contable<span class="menu-oculto">Documento Contable</span></li></ul><ul>Consultar Mensajes<li data-url="mensajes">Consultar Mensajes</li></ul><ul id="titulo-9">Orden de trabajo<li data-url="ordenes/add">Generar Orden de trabajo<span class="menu-oculto">Orden de trabajo</span></li><li data-url="ordenes2/add">Generar Orden de trabajo V2.0<span class="menu-oculto">Orden de trabajo</span></li><li data-url="ordenes/manage">Gestionar Orden de trabajo<span class="menu-oculto">Orden de trabajo</span></li></ul><ul id="titulo-10">Gestionar Stock<li data-url="movimientos/create">Registrar movimiento<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/list">Consultar movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/consultarstock">Consultar Stock<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/aprobar">Aprobar Movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance/create">Crear Balance Movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance/identificadores/create">Crear Balance Movimientos por Identificador o Zona<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance-por-identificador/create">Crear Balance Movimientos por Identificador<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance">Consultar balance Movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance-por-identificador">Consultar Balance Movimientos por Identificador<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/balance/search">Consultar Materiales Certificados<span class="menu-oculto">Gestionar Stock</span></li><li data-url="administrar/depositos">Administrar Depósitos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="reportes/movimientos">Reporte de Movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="reportes/movimiento-guias">Movimiento Guías<span class="menu-oculto">Gestionar Stock</span></li></ul><ul>Auditoría<li data-url="auditoria">Auditoría</li></ul><ul id="titulo-12">Ciudadanos<li data-url="ciudadano/search">Listado de Ciudadanos<span class="menu-oculto">Ciudadanos</span></li><li data-url="beneficios/create">Registrar Beneficio<span class="menu-oculto">Ciudadanos</span></li><li data-url="beneficios/search">Listar Beneficios<span class="menu-oculto">Ciudadanos</span></li><li data-url="ciudadano/centro-salud">Ciudadanos en Centro de Salud<span class="menu-oculto">Ciudadanos</span></li></ul><ul id="titulo-13">Participación Ciudadana<li data-url="ciudadanos/propuestas/search">Listado Propuestas<span class="menu-oculto">Participación Ciudadana</span></li><li data-url="participacion/ciudadana/search">Listado Participación Ciudadana<span class="menu-oculto">Participación Ciudadana</span></li><li data-url="participacion/ciudadana/registro">Registrar Participación Ciudadana<span class="menu-oculto">Participación Ciudadana</span></li></ul><ul id="titulo-14">Comunicaciones<li data-url="comunicaciones/noticias">Notificaciones<span class="menu-oculto">Comunicaciones</span></li><li data-url="comunicaciones/noticiasInternas">Notificaciones Internas<span class="menu-oculto">Comunicaciones</span></li><li data-url="comunicaciones/gastos-urbanos">Gastos Urbanos<span class="menu-oculto">Comunicaciones</span></li><li data-url="sugerencias/search">Consultar Sugerencias<span class="menu-oculto">Comunicaciones</span></li></ul><ul id="titulo-15">Identificador - Activo Urbano<li data-url="identificadores/search">Búsqueda de Activos Urbanos<span class="menu-oculto">Identificador - Activo Urbano</span></li><li data-url="identificadores/crear">Generar Activos Urbanos<span class="menu-oculto">Identificador - Activo Urbano</span></li><li data-url="identificadores-agiles/crear">Generar Activo Ágil<span class="menu-oculto">Identificador - Activo Urbano</span></li><li data-url="identificadores/orden/create">Generar Orden desde Activos Urbanos<span class="menu-oculto">Identificador - Activo Urbano</span></li></ul><ul id="titulo-16">Rupem<li data-url="rupem/search">Búsqueda Rupem<span class="menu-oculto">Rupem</span></li></ul><ul id="titulo-17">Gestionar Transportes<li data-url="gestionar-transporte/search-licencias">Consultar Licencias<span class="menu-oculto">Gestionar Transportes</span></li><li data-url="gestionar-transporte/alta-licencia">Alta Licencia<span class="menu-oculto">Gestionar Transportes</span></li><li data-url="gestionar-transporte/alta-vehiculo">Alta Vehículo<span class="menu-oculto">Gestionar Transportes</span></li></ul><ul id="titulo-18">Consultar reportes<li data-url="reportes/registro-solicitudes">Reporte registro de Solicitudes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-solicitudes-personas">Reporte Tablero Solicitudes y Personas<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo">Reporte Incidentes por Area por Tipo<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo-estado">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/responsable-tipo-estado">Reporte Responsable por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/usuario-tipo-estado">Reporte Usuario Por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/incidentes-mapa">Mapa de Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard">Incidentes Dashboard<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard2">Incidentes Dashboard II<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tiempo-gestion">Cumplimiento Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/conformidad-ciudadano">Conformidad Ciudadano Ciudadano<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-comando">Tablero de Comando<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/registro-incidentes">Reporte Registro de incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuesta-encuestadores">Encuestadores<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuestas">Encuestas<span class="menu-oculto">Consultar reportes</span></li></ul><ul id="titulo-19">Configuraciones<li data-url="configuracion/password">Cambiar Contraseña<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/user">Administrar Usuarios<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/ubicacionxzona">Administrar Zonas<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/ubicacionesxzona">Administrar Zonas Ubicaciones<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/ubicacionxbarrio">Administrar Barrios<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/rolxusuario">Administrar Roles<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/grupos-comunicacion">Asociar Grupo Comunicación<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/groups">Administrar Usuarios Turnero<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/uso-sistema">Uso del Sistema<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/organigrama">Ver Organigrama<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/estado-sistema">Estado del Sistema<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/area-servicio">Configurar Áreas de Servicio<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/estructura-municipal">Configurar Secretarías y Cargos<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/muni">Crear Municipio<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/municipio">Configurar Municipio<span class="menu-oculto">Configuraciones</span></li><li data-url="md/configurar-municipio">Configurar Municipio
+                        Nuevo
+                    <span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/vehiculos">Administrar Vehículos<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/area-incidente-asignar">Asignar Áreas de Servicios y Tipos de incidente<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/administrar-identificadores">Administrar Activos Urbanos<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/administrar-estructuras-identificadores">Administrar Atributos de Activos Urbanos<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/zonas-areas-usuarios-asignar">Asignar Zonas, Áreas y Usuarios<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/asignar-activos-urbanos-usuarios">Asignar Activos Urbanos a Usuarios<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/modulos-portal-ciudadano">Configurar módulos portal ciudadano<span class="menu-oculto">Configuraciones</span></li><li data-url="configuracion/botonera">Configurar Botonera MuniCiudadano<span class="menu-oculto">Configuraciones</span></li><li data-url="incidentes/envio-incidentes-log">Envio Incidentes Log<span class="menu-oculto">Configuraciones</span></li><li data-url="incidentes/cambio-estado-automatico-config">Configuración cambio estado automático incidentes<span class="menu-oculto">Configuraciones</span></li><li data-url="api/registro-envio-api">Registro Envios API<span class="menu-oculto">Configuraciones</span></li></ul><ul>Agregar Zona / Barrio a Incidentes<li data-url="admin/incidentes/actualizar-barrio-zona">Agregar Zona / Barrio a Incidentes</li></ul><ul id="titulo-21">Gestión de Trámites<li data-url="tramites/search">Listado de Trámites<span class="menu-oculto">Gestión de Trámites</span></li><li data-url="listado-tramites">Consultar Trámites<span class="menu-oculto">Gestión de Trámites</span></li><li data-url="md/listado-tramites">Listado de Trámites
+                        Nuevo
+                    <span class="menu-oculto">Gestión de Trámites</span></li><li data-url="planificador-tramites">Planificador de Trámites<span class="menu-oculto">Gestión de Trámites</span></li><li data-url="bandeja-tramites">Bandeja de Trámites<span class="menu-oculto">Gestión de Trámites</span></li></ul><ul id="titulo-22">Gestión de Documentos<li data-url="md/gestor-documental/listado-documentos">Listado de documentos<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/listado-movimientos">Listado de movimientos<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/crear-documento">Crear nuevo documento<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/crear-movimiento">Crear nuevo movimiento<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/administrar-tipos-documentos">Administrar tipos de documentos<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/administrar-canales">Administrar canales<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/administrar-estados">Administrar estados<span class="menu-oculto">Gestión de Documentos</span></li><li data-url="md/gestor-documental/administrar-asuntos">Administrar asuntos<span class="menu-oculto">Gestión de Documentos</span></li></ul><ul id="titulo-23">Expediente<li data-url="expedientes/search">Listado de Expedientes<span class="menu-oculto">Expediente</span></li><li data-url="md/expedientes">Listado de Expedientes
+                        Nuevo
+                    <span class="menu-oculto">Expediente</span></li><li data-url="md/expedientes/administrar-tipo-expedientes">Administrar tipo de expedientes<span class="menu-oculto">Expediente</span></li><li data-url="md/expedientes/administrar-estados">Administrar estados de expedientes<span class="menu-oculto">Expediente</span></li><li data-url="planificador-expedientes">Planificador de Expediente<span class="menu-oculto">Expediente</span></li><li data-url="ipj/search">Listado de IPJ<span class="menu-oculto">Expediente</span></li><li data-url="expedientes/registrar">Registrar Expediente<span class="menu-oculto">Expediente</span></li><li data-url="md/expedientes/nuevo">Registrar Expediente
+                        Nuevo
+                    <span class="menu-oculto">Expediente</span></li></ul><ul id="titulo-24">Configuración de Trámites<li data-url="md/configurar-tramite/listado-tramites">Configurar trámite<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/administrar-estados">Administrar estados<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="tramites/administrar-requisitos">Administrar requisitos<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/administrar-subrequisitos">Administrar subrequisitos<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/administrar-tipos-adjunto">Administrar tipos de adjunto<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/administrar-certificados">Administrar Certificados<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/configurar-categorias">Configurar categorías<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/configurar-vencimientos">Configurar acciones por vencimientos<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="tramites/configurar-tasas">Configurar Tasas de Trámite<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/administrar-tipos-tasa">Administrar tipos de tasa<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/configurar-link/listado-links">Configurar Link inteligente de Trámites<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="tramites/administrar-certificados">Administrar Certificados<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="tramites/administrar-estados">Administrar estados<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="tramites/configurar-tramite">Configurar trámite<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/configurar-tramite">Configurar trámite<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/configurar-link">Configurar Link<span class="menu-oculto">Configuración de Trámites</span></li><li data-url="md/asignar-tramites">Asignar trámites<span class="menu-oculto">Configuración de Trámites</span></li></ul><ul id="titulo-25">Obra Pública<li data-url="obras/create">Registrar Obra<span class="menu-oculto">Obra Pública</span></li><li data-url="obras/search">Listar Obras<span class="menu-oculto">Obra Pública</span></li><li data-url="documentos/search">Documento de Obra<span class="menu-oculto">Obra Pública</span></li></ul><ul id="titulo-26">Obra de Terceros<li data-url="obras/create/v2">Registrar Obra de Terceros<span class="menu-oculto">Obra de Terceros</span></li><li data-url="obras/terceros/search">Listar Obra de Terceros<span class="menu-oculto">Obra de Terceros</span></li><li data-url="documentos-terceros/search">Documentos de Obras Terceros<span class="menu-oculto">Obra de Terceros</span></li><li data-url="obras/trazados/search">Autorizar Trazados<span class="menu-oculto">Obra de Terceros</span></li></ul><ul id="titulo-27">Certificar Obra<li data-url="obras/certificado/create">Certificar Obra<span class="menu-oculto">Certificar Obra</span></li><li data-url="obras/certificado/list">Listar Certificados<span class="menu-oculto">Certificar Obra</span></li><li data-url="obras/anticipo-financiero/create">Deducciones<span class="menu-oculto">Certificar Obra</span></li></ul><ul id="titulo-28">Seguimiento de Obra<li data-url="obras/detalle-parte-diario/create">Registrar Parte Diario<span class="menu-oculto">Seguimiento de Obra</span></li><li data-url="obras/detalle-parte-diario/search">Ver Partes Diarios<span class="menu-oculto">Seguimiento de Obra</span></li><li data-url="obras/control/visualizarDetallesAuditoria">Listar Detalles Auditoría Obras<span class="menu-oculto">Seguimiento de Obra</span></li><li data-url="obras/control/registrarAuditoriaObra">Registrar Relevamiento y Control<span class="menu-oculto">Seguimiento de Obra</span></li></ul><ul id="titulo-29">Reporte Obras<li data-url="obras/reportes/intendente">Dashboard obras<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/reportes/resumen-mensual">Resumen Mensual<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/timeline">Timeline de Obra<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/reportes/avance-presupuesto">Avance Presupuesto<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/reportes/contratistas-terceros">Reporte Contratistas Terceros<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/reportes/avance">Avance de Obra<span class="menu-oculto">Reporte Obras</span></li><li data-url="obras/reportes/importantes">Obras por Inaugurar<span class="menu-oculto">Reporte Obras</span></li></ul><ul id="titulo-30">Configuraciones Obras<li data-url="configuracion/password">Cambiar Contraseña<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/user">Administrar Usuarios<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/ubicacionxzona">Administrar Zonas<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/ubicacionxbarrio">Administrar Barrios<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/uso-sistema">Uso del Sistema<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/organigrama">Ver Organigrama<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/estado-sistema">Estado del Sistema<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="obras/admin-barrios-zonas">Asignar Barrios y Zonas<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/estructura-municipal">Configurar Secretarías y Cargos<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="obras/contratistas">Administrar Contratistas<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/vehiculos">Administrar Vehículos<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="suscripciones">Administrar Suscripciones<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="obras/asignar-usuarios">Asignar Usuario a Tipo de Obra<span class="menu-oculto">Configuraciones Obras</span></li><li data-url="configuracion/zonas-areas-usuarios-asignar">Asignar Zonas, Áreas y Usuarios<span class="menu-oculto">Configuraciones Obras</span></li></ul><ul id="titulo-31">Novedades y Solicitudes<li data-url="ciudadano/mesa-informes">Mesa de Informes<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="solicitudes/add">Registro de solicitudes<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="solicitudes/search">Buscar novedades por solicitudes<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="novedades/search">Buscar novedades<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="incidentes/consultar-social">Consultar Solicitudes<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="solicitudes/acompaniamientos/search">Buscar acompañamientos<span class="menu-oculto">Novedades y Solicitudes</span></li><li data-url="ciudadano/grupo-familiar-beneficios">Grupo familiar beneficios<span class="menu-oculto">Novedades y Solicitudes</span></li></ul><ul id="titulo-32">Hoja de Ruta<li data-url="ordenes/hoja-ruta/add">Generar Hoja de Ruta<span class="menu-oculto">Hoja de Ruta</span></li><li data-url="ordenes/hoja-ruta/manage">Gestionar Hoja de Ruta<span class="menu-oculto">Hoja de Ruta</span></li></ul><ul id="titulo-33">Orden de Provisión<li data-url="orden-provision/alta">Alta de Orden de Provisión<span class="menu-oculto">Orden de Provisión</span></li><li data-url="orden-provision/search">Consultar Orden de Provisión<span class="menu-oculto">Orden de Provisión</span></li><li data-url="orden-provision/entrega">Entregar Orden de Provisión<span class="menu-oculto">Orden de Provisión</span></li></ul><ul id="titulo-34">Vivienda Social<li data-url="vivienda-social/alta">Alta de Vivienda Social<span class="menu-oculto">Vivienda Social</span></li><li data-url="vivienda-social/search">Consultar Vivienda Social<span class="menu-oculto">Vivienda Social</span></li></ul><ul id="titulo-35">Vivienda IPVU<li data-url="vivienda-ipvu/alta">Inscripción de Demandante<span class="menu-oculto">Vivienda IPVU</span></li><li data-url="vivienda-ipvu/search">Consultar Inscripciones<span class="menu-oculto">Vivienda IPVU</span></li><li data-url="vivienda-ipvu/search-ciudadano">Consulta Por Ciudadano<span class="menu-oculto">Vivienda IPVU</span></li></ul><ul id="titulo-36">Insumos Médicos<li data-url="orden-insumos/alta">Alta Orden Insumos<span class="menu-oculto">Insumos Médicos</span></li><li data-url="orden-insumos/search">Consultar Orden Insumos<span class="menu-oculto">Insumos Médicos</span></li><li data-url="orden-insumos/entrega">Entregar Orden Insumos<span class="menu-oculto">Insumos Médicos</span></li></ul><ul id="titulo-37">Gestionar Stock<li data-url="movimientos/create">Registrar movimiento<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/list">Consultar movimientos<span class="menu-oculto">Gestionar Stock</span></li><li data-url="movimientos/consultarstock">Consultar Stock<span class="menu-oculto">Gestionar Stock</span></li></ul><ul id="titulo-38">Ingreso/Egreso CIS<li data-url="md/consulta-cis">Consulta CIS<span class="menu-oculto">Ingreso/Egreso CIS</span></li><li data-url="md/ingreso-egreso-cis/formulario-individual-inicial">Formulario Individual Inicial<span class="menu-oculto">Ingreso/Egreso CIS</span></li><li data-url="md/ingreso-egreso-cis/formulario-individual-administrativo">Ingreso Administrativo<span class="menu-oculto">Ingreso/Egreso CIS</span></li><li data-url="md/ingreso-egreso-cis/formulario-individual-equipo-profesional">Ingreso Profesional<span class="menu-oculto">Ingreso/Egreso CIS</span></li><li data-url="md/ingreso-egreso-cis/egreso">Egreso<span class="menu-oculto">Ingreso/Egreso CIS</span></li><li data-url="md/ingreso-egreso-cis/consulta-egreso">Consulta egreso<span class="menu-oculto">Ingreso/Egreso CIS</span></li></ul><ul id="titulo-39">Ficha Social - CIS<li data-url="md/ficha-social/ficha-ciudadano">Ficha por ciudadano<span class="menu-oculto">Ficha Social - CIS</span></li></ul><ul id="titulo-40">Asignaciones CIS<li data-url="md/crear-espacio-cis">Crear/Editar CIS<span class="menu-oculto">Asignaciones CIS</span></li><li data-url="md/asignar-cama">Asignar Camas<span class="menu-oculto">Asignaciones CIS</span></li><li data-url="md/administrar-estados-camas">Administrar estados camas<span class="menu-oculto">Asignaciones CIS</span></li></ul><ul id="titulo-41">Monitoreo CIS<li data-url="md/monitoreo">Información General<span class="menu-oculto">Monitoreo CIS</span></li><li data-url="md/monitoreo-gestion">Información por CIS<span class="menu-oculto">Monitoreo CIS</span></li></ul><ul id="titulo-42">Comedores<li data-url="md/comedores/listado-entregas">Listado entregas<span class="menu-oculto">Comedores</span></li><li data-url="md/comedores/listado-entregas-agrupadas">Listado entregas agrupadas<span class="menu-oculto">Comedores</span></li><li data-url="md/comedores/consulta-stock">Consulta stock diario<span class="menu-oculto">Comedores</span></li><li data-url="md/comedores/configuracion-raciones">Configuración de raciones<span class="menu-oculto">Comedores</span></li><li data-url="md/comedores/historico-configuracion-raciones">Histórico configuración de raciones<span class="menu-oculto">Comedores</span></li></ul><ul id="titulo-43">Consultar reportes<li data-url="reportes/registro-solicitudes">Reporte registro de Solicitudes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-solicitudes-personas">Reporte Tablero Solicitudes y Personas<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo">Reporte Incidentes por Area por Tipo<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo-estado">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/responsable-tipo-estado">Reporte Responsable por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/usuario-tipo-estado">Reporte Usuario Por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/incidentes-mapa">Mapa de Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard">Incidentes Dashboard<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard2">Incidentes Dashboard II<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tiempo-gestion">Cumplimiento Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/conformidad-ciudadano">Conformidad Ciudadano Ciudadano<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-comando">Tablero de Comando<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/registro-incidentes">Reporte Registro de incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuesta-encuestadores">Encuestadores<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuestas">Encuestas<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/acompaniamiento">Acompañamiento | Casos con seguimiento<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/habitacional-postulado">Reporte Habitacional postulado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/intervenciones-por-acompaniamiento">Intervenciones por acompañamiento<span class="menu-oculto">Consultar reportes</span></li></ul><ul id="titulo-44">Gestionar Entregas de Módulos</ul><ul id="titulo-45">Ciudadanos<li data-url="ciudadano/listar">Listado de Ciudadanos<span class="menu-oculto">Ciudadanos</span></li></ul><ul>Seguridad Ciudadana<li data-url="seguridadciudadana">Seguridad Ciudadana</li></ul><ul>Monitoreo<li data-url="monitoreo">Monitoreo</li></ul><ul id="titulo-48">Gestionar Patrullaje</ul><ul id="titulo-49">Sensores<li data-url="identificadores/search">Búsqueda de Sensores<span class="menu-oculto">Sensores</span></li><li data-url="identificadores/crear">Alta Sensor<span class="menu-oculto">Sensores</span></li><li data-url="identificadores/orden/create">Generar Orden desde Sensor<span class="menu-oculto">Sensores</span></li></ul><ul id="titulo-50">Consultar reportes<li data-url="reportes/registro-solicitudes">Reporte registro de Solicitudes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-solicitudes-personas">Reporte Tablero Solicitudes y Personas<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo">Reporte Incidentes por Area por Tipo<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/area-tipo-estado">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/responsable-tipo-estado">Reporte Responsable por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/usuario-tipo-estado">Reporte Usuario Por Incidentes Por Estado<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/incidentes-mapa">Mapa de Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard">Incidentes Dashboard<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/dashboard2">Incidentes Dashboard II<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tiempo-gestion">Cumplimiento Incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/conformidad-ciudadano">Conformidad Ciudadano Ciudadano<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/tablero-comando">Tablero de Comando<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/registro-incidentes">Reporte Registro de incidentes<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuesta-encuestadores">Encuestadores<span class="menu-oculto">Consultar reportes</span></li><li data-url="reportes/encuestas">Encuestas<span class="menu-oculto">Consultar reportes</span></li></ul></div>
+    </form>
+    <div class="sidebar-options" style="display: block;">
+        <!-- ######## OPCIONES MODULO GESTION ######## -->
+        <div id="opcionesModuloGestion">
+            <details id="incidentesOption">
+                <summary><span>Incidentes</span></summary>
+                <ul>
+                    <li id="regIncidente" data-url="incidentes/add">Registrar Incidente</li>
+                    <!-- <li id="administrar-estados-incidente" data-url="mf-incidente/administrar-estados">Admninistrar Estados mf-incidente</li> -->
+                    <li data-url="incidentes/add/v2" style="display: none;">Registro Rapido</li>
+                    <li id="consultaIncidente" data-url="incidentes/search/v2">Consultar Incidente</li>
+                    <li data-url="incidentes/derivaciones" style="display: none;">Consultar Derivaciones</li>
+                    <li data-url="incidentes/reclamos" style="display: none;">Consultar Reclamos</li>
+                    <li data-url="incidentes/consultar-social" style="display: none;">Consultar Solicitudes</li>
+                    <li data-url="incidentes/search/administrativo" style="display: none;">Consulta Administrativa</li>
+                    <li data-url="incidentes/consolidado-diario" style="display: none;">Consultar Consolidado Diario</li>
+                    <li id="registroIncidenteActivo" data-url="incidentes/crear" style="display: none;">Registro de Incidente por Activo</li>
+                    <li data-url="incidentes-identificador/search" style="display: none;">Consulta de Incidente</li>
+                    <li data-url="planificador-tareas" style="display: none;">Planificador de Tareas</li>
+                    <li data-url="planificador-general" style="display: none;">Planificador General de Tareas</li>
+                </ul>
+            </details>
+            <details id="denunciasPrivadasOption">
+                <summary id="denunciaPrivadaSearch" class="sin-opciones deshabilitar-opciones">Consultar Denuncias Privadas</summary>
+            </details>
+            <details id="ordenesConstatacionOption" style="display: none;">
+                <summary><span>Ordenes de Constatación</span></summary>
+                <ul>
+                    <li data-url="orden-constatacion/create" style="display: none;">Generar Ordenes de Constatación</li>
+                    <li data-url="orden-constatacion/search" style="display: none;">Consultar Ordenes de Constatación</li>
+                    <li data-url="denuncia-privada/search-con-acta" style="display: none;">Consultar Denuncias Privadas con Acta de Constatación</li>
+                </ul>
+            </details>
+            <details id="reportesRecursosTributariosOption" style="display: none;">
+                <summary data-url="reportes/recursos-tributarios" class="sin-opciones">Reporte Recursos Tributarios</summary>
+            </details>
+            <details id="encuestasOption" style="display: none;">
+                <summary data-url="incidentes/encuestas" class="sin-opciones">Encuestas</summary>
+            </details>
+            <details id="seguridadCiudadanaOption" style="display: none;">
+                <summary data-url="seguridadciudadana" class="sin-opciones">Seguridad Ciudadana</summary>
+            </details>
+            <details id="monitoreoOption" style="display: none;">
+                <summary data-url="monitoreo" class="sin-opciones">Monitoreo</summary>
+            </details>
+            <details id="denunciaOption" style="display: none;">
+                <summary style="display: none;"><span>Denuncia</span></summary>
+                <ul>
+                    <li data-url="denuncias/add" style="display: none;">Registrar Denuncia</li>
+                    <li data-url="denuncias/search" style="display: none;">Consultar Denuncia</li>
+                </ul>
+            </details>
+            <details id="documentoContableOption" style="display: none;">
+                <summary style="display: none;"><span>Documento Contable</span></summary>
+                <ul>
+                    <li data-url="documentocontable/add" style="display: none;">Registrar Documento Contable</li>
+                    <li data-url="documentocontable/search" style="display: none;">Consultar Documento Contable</li>
+                </ul>
+            </details>
+            <details id="consultarMensajesOption">
+                <summary data-url="mensajes" class="sin-opciones">Consultar Mensajes</summary>
+            </details>
+            <details id="otOption">
+                <summary><span>Orden de trabajo</span></summary>
+                <ul>
+                    <li data-url="ordenes/add">Generar Orden de trabajo</li>
+                    <li data-url="ordenes2/add">Generar Orden de trabajo V2.0</li>
+                    <li id="ordenesManage" class="" data-url="ordenes/manage">Gestionar Orden de trabajo</li>
+                </ul>
+            </details>
+            <details id="stockOption" style="display: none;">
+                <summary><span>Gestionar Stock</span></summary>
+                <ul>
+                    <li data-url="movimientos/create" style="display: none;">Registrar movimiento</li>
+                    <li data-url="movimientos/list" style="display: none;">Consultar movimientos</li>
+                    <li data-url="movimientos/consultarstock" style="display: none;">Consultar Stock</li>
+                    <li id="aprobarMovimientos" style="display: none;" data-url="movimientos/aprobar">Aprobar Movimientos</li>
+                    <li data-url="movimientos/balance/create" style="display: none;">Crear Balance Movimientos</li>
+                    <li id="balanceXIdentificadorZona" style="display: none;" data-url="movimientos/balance/identificadores/create">Crear Balance Movimientos por Identificador o Zona</li>
+                    <li id="balanceXIdentificador" style="display: none;" data-url="movimientos/balance-por-identificador/create">Crear Balance Movimientos por Identificador</li>
+                    <li data-url="movimientos/balance" style="display: none;">Consultar balance Movimientos</li>
+                    <li id="consultarBalanceXIdentificador" data-url="movimientos/balance-por-identificador" style="display: none;">Consultar Balance Movimientos por Identificador</li>
+                    <li data-url="movimientos/balance/search" style="display: none;">Consultar Materiales Certificados</li>
+                    <li data-url="administrar/depositos" style="display: none;">Administrar Depósitos</li>
+                    <li id="reporteMovimientos" style="display: none;" data-url="reportes/movimientos">Reporte de Movimientos</li>
+                    <li data-url="reportes/movimiento-guias" style="display: none;">Movimiento Guías</li>
+                </ul>
+            </details>
+            <details id="auditoriaOption">
+                <summary data-url="auditoria" class="sin-opciones">Auditoría</summary>
+            </details>
+            <details id="ciudadanosOption" style="display: none;">
+                <summary><span id="lblCiudadano">Ciudadanos</span></summary>
+                <ul>
+                    <li id="lblListadoCiudadano" data-url="ciudadano/search" style="display: none;">Listado de Ciudadanos</li>
+                    <li data-url="beneficios/create" style="display: none;">Registrar Beneficio</li>
+                    <li data-url="beneficios/search" style="display: none;">Listar Beneficios</li>
+                    <li id="lblCiudEnCentro" data-url="ciudadano/centro-salud" style="display: none;">Ciudadanos en Centro de Salud</li>
+                </ul>
+            </details>
+            <details id="participacionCiudadanaOption" style="display: none;">
+                <summary><span>Participación Ciudadana</span></summary>
+                <ul>
+                    <li data-url="ciudadanos/propuestas/search" style="display: none;">Listado Propuestas</li>
+                    <li data-url="participacion/ciudadana/search" style="display: none;">Listado Participación Ciudadana</li>
+                    <li data-url="participacion/ciudadana/registro" style="display: none;">Registrar Participación Ciudadana</li>
+                </ul>
+            </details>
+            <details id="comunicacionesOption" style="display: none;">
+                <summary><span>Comunicaciones</span></summary>
+                <ul>
+                    <li data-url="comunicaciones/noticias" style="display: none;">Notificaciones</li>
+                    <li id="noticiasInternas" data-url="comunicaciones/noticiasInternas" style="display: none;">Notificaciones Internas</li>
+                    <li data-url="comunicaciones/gastos-urbanos" style="display: none;">Gastos Urbanos</li>
+                    <li data-url="sugerencias/search" style="display: none;">Consultar Sugerencias</li>
+                </ul>
+            </details>
+            <details id="identificadorOption">
+                <summary><span>Identificador - Activo Urbano</span></summary>
+                <ul>
+                    <li data-url="identificadores/search">Búsqueda de Activos Urbanos</li>
+                    <li data-url="identificadores/crear" style="display: none;">Generar Activos Urbanos</li>
+                    <li data-url="identificadores-agiles/crear" style="display: none;">Generar Activo Ágil</li>
+                    <li data-url="identificadores/orden/create">Generar Orden desde Activos Urbanos</li>
+                </ul>
+            </details>
+            <details id="rupemOption" style="display: none;">
+                <summary><span>Rupem</span></summary>
+                <ul>
+                    <li id="rupemSearch" data-url="rupem/search" style="display: none;">Búsqueda Rupem</li>
+                </ul>
+            </details>
+            <details id="comercioOption" style="display: none;">
+                <summary><span>Comercio</span></summary>
+                <ul></ul>
+            </details>
+            <details id="gestionTransporteOption" style="display: none;">
+                <summary><span>Gestionar Transportes</span></summary>
+                <ul>
+                    <li data-url="gestionar-transporte/search-licencias" style="display: none;">Consultar Licencias</li>
+                    <li data-url="gestionar-transporte/alta-licencia" style="display: none;">Alta Licencia</li>
+                    <li data-url="gestionar-transporte/alta-vehiculo" style="display: none;">Alta Vehículo</li>
+                </ul>
+            </details>
+            <details id="consultarReportesOption" style="display: none;">
+                <summary><span>Consultar reportes</span></summary>
+                <ul>
+                    <li data-url="reportes/registro-solicitudes" style="display: none;">Reporte registro de Solicitudes</li>
+                    <li data-url="reportes/tablero-solicitudes-personas" style="display: none;">Reporte Tablero Solicitudes y Personas</li>
+                    <li data-url="reportes/area-tipo" style="display: none;">Reporte Incidentes por Area por Tipo</li>
+                    <li data-url="reportes/area-tipo-estado" style="display: none;">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen</li>
+                    <li data-url="reportes/responsable-tipo-estado" style="display: none;">Reporte Responsable por Incidentes Por Estado</li>
+                    <li data-url="reportes/usuario-tipo-estado" style="display: none;">Reporte Usuario Por Incidentes Por Estado</li>
+                    <li data-url="reportes/incidentes-mapa" style="display: none;">Mapa de Incidentes</li>
+                    <li data-url="reportes/dashboard" style="display: none;">Incidentes Dashboard</li>
+                    <li data-url="reportes/dashboard2" style="display: none;">Incidentes Dashboard II</li>
+                    <li data-url="reportes/tiempo-gestion" style="display: none;">Cumplimiento Incidentes</li>
+                    <li data-url="reportes/conformidad-ciudadano" style="display: none;">Conformidad Ciudadano Ciudadano</li>
+                    <li data-url="reportes/tablero-comando" style="display: none;">Tablero de Comando</li>
+                    <li data-url="reportes/registro-incidentes" style="display: none;">Reporte Registro de incidentes</li>
+                    <li data-url="reportes/encuesta-encuestadores" style="display: none;">Encuestadores</li>
+                    <li data-url="reportes/encuestas" style="display: none;">Encuestas</li>
+                </ul>
+            </details>
+            <details id="configuracionesOption" style="display: none;">
+                <summary><span>Configuraciones</span></summary>
+                <ul>
+                    <li data-url="configuracion/password">Cambiar Contraseña</li>
+                    <li data-url="configuracion/user" style="display: none;">Administrar Usuarios</li>
+                    <li data-url="configuracion/ubicacionxzona" style="display: none;">Administrar Zonas</li>
+                    <li data-url="configuracion/ubicacionesxzona">Administrar Zonas Ubicaciones</li>
+                    <li id="configurarBarrio" style="display: none;" data-url="configuracion/ubicacionxbarrio">Administrar Barrios</li>
+                    <li data-url="configuracion/rolxusuario" style="display: none;">Administrar Roles</li>
+                    <li data-url="configuracion/grupos-comunicacion" style="display: none;">Asociar Grupo Comunicación</li>
+                    <li id="opcionConfiguracionGrupos" data-url="configuracion/groups" style="display: none;">Administrar Usuarios Turnero</li>
+                    <li data-url="configuracion/uso-sistema" style="display: none;">Uso del Sistema</li>
+                    <li data-url="configuracion/organigrama" style="display: none;">Ver Organigrama</li>
+                    <li id="estadoSistema" style="display: none;" data-url="configuracion/estado-sistema">Estado del Sistema</li>
+                    <li data-url="configuracion/area-servicio" style="display: none;">Configurar Áreas de Servicio</li>
+                    <li data-url="configuracion/estructura-municipal" style="display: none;">Configurar Secretarías y Cargos</li>
+                    <li id="altaMuniPermiso" data-url="configuracion/muni" style="display: none;">Crear Municipio</li>
+                    <li id="configMuniPermiso" style="display: none;" data-url="configuracion/municipio">Configurar Municipio</li>
+                    <li data-url="md/configurar-municipio" style="display: none; flex-direction: row; justify-content: space-between;">Configurar Municipio
+                        <button type="button" style="display: flex; position: relative; background-color: crimson; color: white; justify-content: center; align-items: center; height: fit-content; border: 1px solid lightgray; border-radius: 5px; font-weight: bold; font-size: 12px">Nuevo</button>
+                    </li>
+                    <li data-url="configuracion/vehiculos" style="display: none;">Administrar Vehículos</li>
+                    <li data-url="configuracion/area-incidente-asignar" style="display: none;">Asignar Áreas de Servicios y Tipos de incidente</li>
+                    <li data-url="configuracion/administrar-identificadores" style="display: none;">Administrar Activos Urbanos</li>
+                    <li data-url="configuracion/administrar-estructuras-identificadores" style="display: none;">Administrar Atributos de Activos Urbanos</li>
+                    <li data-url="configuracion/zonas-areas-usuarios-asignar" style="display: none;">Asignar Zonas, Áreas y Usuarios</li>
+                    <li data-url="configuracion/asignar-activos-urbanos-usuarios">Asignar Activos Urbanos a Usuarios</li>
+                    <li data-url="configuracion/modulos-portal-ciudadano" style="display: none;">Configurar módulos portal ciudadano</li>
+                    <li id="crearBotonera" style="display: none;" data-url="configuracion/botonera">Configurar Botonera MuniCiudadano</li>
+                    <li data-url="incidentes/envio-incidentes-log" style="display: none;">Envio Incidentes Log</li>
+                    <li data-url="incidentes/cambio-estado-automatico-config" style="display: none;">Configuración cambio estado automático incidentes</li>
+                    <li data-url="api/registro-envio-api" style="display: none;">Registro Envios API</li>
+                </ul>
+            </details>
+            <details id="agregarZonaBarrioOption" style="display: none;">
+                <summary data-url="admin/incidentes/actualizar-barrio-zona" class="sin-opciones">Agregar Zona / Barrio a Incidentes</summary>
+            </details>
+        </div>            
+            <!-- ========== OPCIONES MÓDULO TRÁMITES (NUEVO) ========== -->
+        <div id="opcionesModuloTramites" style="display:none;">
+
+            <details id="tramitesGestionOption" style="display: none;">
+                <summary><span>Gestión de Trámites</span></summary>
+                <ul>
+                    <li data-url="tramites/search" style="display: none;">Listado de Trámites</li>
+                    <li data-url="listado-tramites" style="display: none;">Consultar Trámites</li>
+                    <li data-url="md/listado-tramites" style="display: none;">Listado de Trámites
+                        <button type="button" style="display: flex; position: relative; background-color: crimson; color: white; justify-content: center; align-items: center; height: fit-content; border: 1px solid lightgray; border-radius: 5px; font-weight: bold; font-size: 12px">Nuevo</button>
+                    </li>
+                    <li data-url="planificador-tramites" style="display: none;">Planificador de Trámites</li>
+                    <li data-url="bandeja-tramites" style="display: none;">Bandeja de Trámites</li>
+                </ul>
+            </details>
+
+            <details id="gestionDocumentosOption" style="display: none;">
+                <summary><span>Gestión de Documentos</span></summary>
+                <ul>
+                    <li data-url="md/gestor-documental/listado-documentos" style="display: none;" id="gdListadoDocumentos">Listado de documentos</li>
+                    <li data-url="md/gestor-documental/listado-movimientos" style="display: none;" id="gdListadoMovimientos">Listado de movimientos</li>
+                    <li data-url="md/gestor-documental/crear-documento" style="display: none;">Crear nuevo documento</li>
+                    <li data-url="md/gestor-documental/crear-movimiento" style="display: none;">Crear nuevo movimiento</li>
+                    <li data-url="md/gestor-documental/administrar-tipos-documentos" style="display: none;">Administrar tipos de documentos</li>
+                    <li data-url="md/gestor-documental/administrar-canales" style="display: none;">Administrar canales</li>
+                    <li data-url="md/gestor-documental/administrar-estados" style="display: none;">Administrar estados</li>
+                    <li data-url="md/gestor-documental/administrar-asuntos" style="display: none;">Administrar asuntos</li>
+                </ul>
+            </details>
+
+            <details id="tramitesExpedienteOption" style="display: none;">
+                <summary><span>Expediente</span></summary>
+                <ul>
+                    <li data-url="expedientes/search" style="display: none;">Listado de Expedientes</li>
+                    <li data-url="md/expedientes" style="display: flex; flex-direction: row; justify-content: space-between;">Listado de Expedientes
+                        <button type="button" style="display: flex; position: relative; background-color: crimson; color: white; justify-content: center; align-items: center; height: fit-content; border: 1px solid lightgray; border-radius: 5px; font-weight: bold; font-size: 12px">Nuevo</button>
+                    </li>
+                    <li data-url="md/expedientes/administrar-tipo-expedientes">Administrar tipo de expedientes</li>
+                    <li data-url="md/expedientes/administrar-estados">Administrar estados de expedientes</li>
+                    <li data-url="planificador-expedientes" style="display: none;">Planificador de Expediente</li>
+                    <li data-url="ipj/search" style="display: none;">Listado de IPJ</li>
+                    <li data-url="expedientes/registrar" style="display: none;">Registrar Expediente</li>
+                    <li data-url="md/expedientes/nuevo" style="display: flex; flex-direction: row; justify-content: space-between;">Registrar Expediente
+                        <button type="button" style="display: flex; position: relative; background-color: crimson; color: white; justify-content: center; align-items: center; height: fit-content; border: 1px solid lightgray; border-radius: 5px; font-weight: bold; font-size: 12px">Nuevo</button>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="tramitesConfiguracionesOption" style="display: none;">
+                <summary><span>Configuración de Trámites</span></summary>
+                <ul>
+                    <li data-url="md/configurar-tramite/listado-tramites" style="display: none;">Configurar trámite</li>
+                    <li data-url="md/administrar-estados" style="display: none;">Administrar estados</li>
+                    <li data-url="tramites/administrar-requisitos" style="display: none;">Administrar requisitos</li>
+                    <li data-url="md/administrar-subrequisitos">Administrar subrequisitos</li>
+                    <li data-url="md/administrar-tipos-adjunto" style="display: none;">Administrar tipos de adjunto</li>
+                    <li data-url="md/administrar-certificados" style="display: none;">Administrar Certificados</li>
+                    <li data-url="md/configurar-categorias" style="display: none;">Configurar categorías</li>
+                    <li data-url="md/configurar-vencimientos" style="display: none;">Configurar acciones por vencimientos</li>
+                    <li data-url="tramites/configurar-tasas" style="display: none;">Configurar Tasas de Trámite</li>
+                    <li data-url="md/administrar-tipos-tasa" style="display: none;">Administrar tipos de tasa</li>
+                    <li data-url="md/configurar-link/listado-links" style="display: none;">Configurar Link inteligente de Trámites</li>
+                    <li data-url="tramites/administrar-certificados" style="display: none;">Administrar Certificados</li>
+                    <li data-url="tramites/administrar-estados" style="display: none;">Administrar estados</li>
+                    <li data-url="tramites/configurar-tramite" style="display: none;">Configurar trámite</li>
+                    <li data-url="md/configurar-tramite" style="display: none;">Configurar trámite</li>
+                    <li data-url="md/configurar-link" style="display: none;">Configurar Link</li>
+                    <li data-url="md/asignar-tramites" style="display: none;">Asignar trámites</li>
+                </ul>
+            </details>    
+        </div>
+        <!-- ######### OPCIONES MODULO OBRAS ######### -->
+        <div id="opcionesModuloObras" style="display: none;">
+            <details id="obraPublicaOption" style="display: none;">
+                <summary><span>Obra Pública</span></summary>
+                <ul>
+                    <li data-url="obras/create" style="display: none;">Registrar Obra</li>
+                    <li data-url="obras/search" style="display: none;">Listar Obras</li>
+                    <li data-url="documentos/search" style="display: none;">Documento de Obra</li>
+                </ul>
+            </details>
+            <details id="obraTerceroOption" style="display: none;">
+                <summary><span>Obra de Terceros</span></summary>
+                <ul>
+                    <li data-url="obras/create/v2" style="display: none;">Registrar Obra de Terceros</li>
+                    <li data-url="obras/terceros/search" style="display: none;">Listar Obra de Terceros</li>
+                    <li data-url="documentos-terceros/search" style="display: none;">Documentos de Obras Terceros</li>
+                    <li id="autorizarTrazados" data-url="obras/trazados/search" style="display: none;">Autorizar Trazados</li>
+                </ul>
+            </details>
+            <details id="certificarObrasOption" style="display: none;">
+                <summary><span>Certificar Obra</span></summary>
+                <ul>
+                    <li data-url="obras/certificado/create" style="display: none;">Certificar Obra</li>
+                    <li data-url="obras/certificado/list" style="display: none;">Listar Certificados</li>
+                    <li data-url="obras/anticipo-financiero/create" style="display: none;">Deducciones</li>
+
+                </ul>
+            </details>
+            <details id="seguimientoObraOption" style="display: none;">
+                <summary><span>Seguimiento de Obra</span></summary>
+                <ul>
+                    <li data-url="obras/detalle-parte-diario/create" style="display: none;">Registrar Parte Diario</li>
+                    <li data-url="obras/detalle-parte-diario/search" style="display: none;">Ver Partes Diarios</li>
+                    <li data-url="obras/control/visualizarDetallesAuditoria" style="display: none;">Listar Detalles Auditoría Obras</li>
+                    <li data-url="obras/control/registrarAuditoriaObra" style="display: none;">Registrar Relevamiento y Control</li>
+                </ul>
+            </details>
+            <details id="reporteObrasOption" style="display: none;">
+                <summary><span>Reporte Obras</span></summary>
+                <ul>
+                    <li data-url="obras/reportes/intendente" style="display: none;">Dashboard obras</li>
+                    <li data-url="obras/reportes/resumen-mensual" style="display: none;">Resumen Mensual</li>
+                    <li data-url="obras/timeline" style="display: none;">Timeline de Obra</li>
+                    <li data-url="obras/reportes/avance-presupuesto" style="display: none;">Avance Presupuesto</li>
+                    <li data-url="obras/reportes/contratistas-terceros" style="display: none;">Reporte Contratistas Terceros</li>
+                    <li data-url="obras/reportes/avance" style="display: none;">Avance de Obra</li>
+                    <li data-url="obras/reportes/importantes" style="display: none;">Obras por Inaugurar</li>
+                </ul>
+            </details>
+            <details id="configuracionesObrasOption" style="display: none;">
+                <summary><span>Configuraciones Obras</span></summary>
+                <ul>
+                    <li data-url="configuracion/password">Cambiar Contraseña</li>
+                    <li data-url="configuracion/user" style="display: none;">Administrar Usuarios</li>
+                    <li data-url="configuracion/ubicacionxzona" style="display: none;">Administrar Zonas</li>
+                    <li id="configurarBarrioObra" style="display: none;" data-url="configuracion/ubicacionxbarrio">Administrar Barrios</li>
+                    <li data-url="configuracion/uso-sistema" style="display: none;">Uso del Sistema</li>
+                    <li data-url="configuracion/organigrama" style="display: none;">Ver Organigrama</li>
+                    <li id="estadoSistemaObra" style="display: none;" data-url="configuracion/estado-sistema">Estado del Sistema</li>
+                    <li data-url="obras/admin-barrios-zonas" style="display: none;">Asignar Barrios y Zonas</li>
+                    <li data-url="configuracion/estructura-municipal" style="display: none;">Configurar Secretarías y Cargos</li>
+                    <li data-url="obras/contratistas" style="display: none;">Administrar Contratistas</li>
+                    <li data-url="configuracion/vehiculos" style="display: none;">Administrar Vehículos</li>
+                    <li data-url="suscripciones" style="display: none;">Administrar Suscripciones</li>
+                    <li data-url="obras/asignar-usuarios">Asignar Usuario a Tipo de Obra</li>
+                    <li data-url="configuracion/zonas-areas-usuarios-asignar" style="display: none;">Asignar Zonas, Áreas y Usuarios</li>
+                </ul>
+            </details>
+        </div>
+        <!-- ######## OPCIONES MODULO SOCIAL ######### -->
+        <div id="opcionesModuloSocial" style="display: none;">
+            <details id="solicitudesOption" style="display: none;">
+                <summary><span>Novedades y Solicitudes</span></summary>
+                <ul>
+                    <li data-url="ciudadano/mesa-informes" style="display: none;">Mesa de Informes</li>
+                    <li data-url="solicitudes/add" style="display: none;">Registro de solicitudes</li>
+                    <li data-url="solicitudes/search" style="display: none;">Buscar novedades por solicitudes</li>
+                    <li data-url="novedades/search">Buscar novedades</li>
+                    <li data-url="incidentes/consultar-social" style="display: none;">Consultar Solicitudes</li>
+                    <li data-url="solicitudes/acompaniamientos/search" style="display: none;">Buscar acompañamientos</li>
+                    <li data-url="ciudadano/grupo-familiar-beneficios">Grupo familiar beneficios</li>
+                </ul>
+            </details>
+            <details id="otSocialOption" style="display: none;">
+                <summary><span>Hoja de Ruta</span></summary>
+                <ul>
+                    <li data-url="ordenes/hoja-ruta/add" style="display: none;">Generar Hoja de Ruta</li>
+                    <li data-url="ordenes/hoja-ruta/manage" style="display: none;">Gestionar Hoja de Ruta</li>
+                </ul>
+            </details>
+            <details id="ordenProvisionOption" style="display: none;">
+                <summary><span>Orden de Provisión</span></summary>
+                <ul>
+                    <li data-url="orden-provision/alta" style="display: none;">Alta de Orden de Provisión</li>
+                    <li data-url="orden-provision/search" style="display: none;">Consultar Orden de Provisión</li>
+                    <li data-url="orden-provision/entrega" style="display: none;">Entregar Orden de Provisión</li>
+                </ul>
+            </details>
+            <details id="viviendaSocialOption" style="display: none;">
+                <summary><span>Vivienda Social</span></summary>
+                <ul>
+                    <li data-url="vivienda-social/alta" style="display: none;">Alta de Vivienda Social</li>
+                    <li data-url="vivienda-social/search" style="display: none;">Consultar Vivienda Social</li>
+                </ul>
+            </details>
+            <details id="viviendaIPVUOption" style="display: none;">
+                <summary><span>Vivienda IPVU</span></summary>
+                <ul>
+                    <li data-url="vivienda-ipvu/alta" style="display: none;">Inscripción de Demandante</li>
+                    <li data-url="vivienda-ipvu/search" style="display: none;">Consultar Inscripciones</li>
+                    <li data-url="vivienda-ipvu/search-ciudadano" style="display: none;">Consulta Por Ciudadano</li>
+                </ul>
+            </details>
+            <details id="ordenFarmaciaOption" style="display: none;">
+                <summary><span>Insumos Médicos</span></summary>
+                <ul>
+                    <li data-url="orden-insumos/alta" style="display: none;">Alta Orden Insumos</li>
+                    <li data-url="orden-insumos/search" style="display: none;">Consultar Orden Insumos</li>
+                    <li data-url="orden-insumos/entrega">Entregar Orden Insumos</li>
+                </ul>
+            </details>
+            <details id="stockSocialOption" style="display: none;">
+                <summary><span>Gestionar Stock</span></summary>
+                <ul>
+                    <li data-url="movimientos/create" style="display: none;">Registrar movimiento</li>
+                    <li data-url="movimientos/list" style="display: none;">Consultar movimientos</li>
+                    <li data-url="movimientos/consultarstock" style="display: none;">Consultar Stock</li>
+                    <!-- <li data-url="movimientos/consultar-detalle-stock">Consultar detalle de Stock</li> -->
+                </ul>
+            </details>
+            <details id="cisIngresoEgresoOption" style="display: none;">
+                <summary><span>Ingreso/Egreso CIS</span></summary>
+                <ul>
+                    <li data-url="md/consulta-cis" style="display: none;">Consulta CIS</li>
+                    <li data-url="md/ingreso-egreso-cis/formulario-individual-inicial" style="display: none;">Formulario Individual Inicial</li>
+                    <li data-url="md/ingreso-egreso-cis/formulario-individual-administrativo" style="display: none;">Ingreso Administrativo</li>
+                    <li data-url="md/ingreso-egreso-cis/formulario-individual-equipo-profesional" style="display: none;">Ingreso Profesional</li>
+                    <li data-url="md/ingreso-egreso-cis/egreso" style="display: none;">Egreso</li>
+                    <li data-url="md/ingreso-egreso-cis/consulta-egreso" style="display: none;">Consulta egreso</li>
+                </ul>
+            </details>
+            <details id="cisFichaSocialOption" style="display: none;">
+                <summary><span>Ficha Social - CIS</span></summary>
+                <ul>
+                    <li data-url="md/ficha-social/ficha-ciudadano" style="display: none;">Ficha por ciudadano</li>
+                </ul>
+            </details>
+            <details id="cisAsignacionesOption" style="display: none;">
+                <summary><span>Asignaciones CIS</span></summary>
+                <ul>
+                    <li data-url="md/crear-espacio-cis" style="display: none;">Crear/Editar CIS</li>
+                    <li data-url="md/asignar-cama" style="display: none;">Asignar Camas</li>
+                    <li data-url="md/administrar-estados-camas" style="display: none;">Administrar estados camas</li>
+                </ul>
+            </details>
+            <details id="cisMonitoreoOption" style="display: none;">
+                <summary><span>Monitoreo CIS</span></summary>
+                <ul>
+                    <li data-url="md/monitoreo">Información General</li>
+                    <li data-url="md/monitoreo-gestion">Información por CIS</li>
+                </ul>
+            </details>
+            <details id="comedoresOption" style="display: none;">
+                <summary><span>Comedores</span></summary>
+                <ul>
+                    <li data-url="md/comedores/listado-entregas" style="display: none;">Listado entregas</li>
+                    <li data-url="md/comedores/listado-entregas-agrupadas" style="display: none;">Listado entregas agrupadas</li>
+                    <li data-url="md/comedores/consulta-stock" style="display: none;">Consulta stock diario</li>
+                    <li data-url="md/comedores/configuracion-raciones" style="display: none;">Configuración de raciones</li>
+                    <li data-url="md/comedores/historico-configuracion-raciones" style="display: none;">Histórico configuración de raciones</li>
+                </ul>
+            </details>
+            <details id="reporteSocialOption" style="display: none;">
+                <summary><span>Consultar reportes</span></summary>
+                <ul>
+                    <li data-url="reportes/registro-solicitudes" style="display: none;">Reporte registro de Solicitudes</li>
+                    <li data-url="reportes/tablero-solicitudes-personas" style="display: none;">Reporte Tablero Solicitudes y Personas</li>
+                    <li data-url="reportes/area-tipo" style="display: none;">Reporte Incidentes por Area por Tipo</li>
+                    <li data-url="reportes/area-tipo-estado" style="display: none;">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen</li>
+                    <li data-url="reportes/responsable-tipo-estado" style="display: none;">Reporte Responsable por Incidentes Por Estado</li>
+                    <li data-url="reportes/usuario-tipo-estado" style="display: none;">Reporte Usuario Por Incidentes Por Estado</li>
+                    <li data-url="reportes/incidentes-mapa" style="display: none;">Mapa de Incidentes</li>
+                    <li data-url="reportes/dashboard" style="display: none;">Incidentes Dashboard</li>
+                    <li data-url="reportes/dashboard2" style="display: none;">Incidentes Dashboard II</li>
+                    <li data-url="reportes/tiempo-gestion" style="display: none;">Cumplimiento Incidentes</li>
+                    <li data-url="reportes/conformidad-ciudadano" style="display: none;">Conformidad Ciudadano Ciudadano</li>
+                    <li data-url="reportes/tablero-comando" style="display: none;">Tablero de Comando</li>
+                    <li data-url="reportes/registro-incidentes" style="display: none;">Reporte Registro de incidentes</li>
+                    <li data-url="reportes/encuesta-encuestadores" style="display: none;">Encuestadores</li>
+                    <li data-url="reportes/encuestas" style="display: none;">Encuestas</li>
+                    <li data-url="reportes/acompaniamiento" style="display: none;">Acompañamiento | Casos con seguimiento</li>
+                    <li data-url="reportes/habitacional-postulado" style="display: none;">Reporte Habitacional postulado</li>
+                    <li data-url="reportes/intervenciones-por-acompaniamiento" style="display: none;">Intervenciones por acompañamiento</li>
+                </ul>
+            </details>
+            <details id="consultarMensajesSocialOption" class="deshabilitar-opciones">
+                <summary class="sin-opciones">Consultar Mensajes</summary>
+            </details>
+            <details id="modulosOption" class="deshabilitar-opciones">
+                <summary><span>Gestionar Entregas de Módulos</span></summary>
+                <ul>
+                    <li>Generar Entrega</li>
+                    <li>Gestionar Entregas</li>
+                </ul>
+            </details>
+            <details id="auditoriaSocialOption" class="deshabilitar-opciones">
+                <summary class="sin-opciones">Auditoría</summary>
+            </details>
+            <details id="ciudadanosSocialOption">
+                <summary><span>Ciudadanos</span></summary>
+                <ul>
+                    <li data-url="ciudadano/listar">Listado de Ciudadanos</li>
+                    <li class="deshabilitar-opciones">Registrar Beneficio</li>
+                    <li class="deshabilitar-opciones">Listar Beneficios</li>
+                    <li class="deshabilitar-opciones">Ciudadanos en Centro de Salud</li>
+                </ul>
+            </details>
+        </div>
+        <!-- ####### OPCIONES MODULO SEGURIDAD ####### -->
+        <div id="opcionesModuloSeguridad" style="display: none;">
+            <!-- <details id="monitoreoSeguridadOption">
+                <summary><span>Monitoreo</span></summary>
+                <ul>
+                    <li>Registrar Monitoreo</li>
+                    <li>Consultar Monitoreo</li>
+                    <li>Monitoreo Online</li>
+                </ul>
+            </details>
+            <details id="seguridadCiudadanaOption">
+                <summary>Seguridad Seguridad Ciudadana</summary>
+                <ul>
+                    <li>Registrar Seguridad Ciudadana</li>
+                    <li>Consultar Seguridad Ciudadana</li>
+                    <li>Monitoreo Online</li>
+                </ul>
+            </details> -->
+            <details id="seguridadCiudadanaSeguridadOption" style="display: none;">
+                <summary data-url="seguridadciudadana" class="sin-opciones">Seguridad Ciudadana</summary>
+            </details>
+            <details id="monitoreoSeguridadOption" style="display: none;">
+                <summary data-url="monitoreo" class="sin-opciones">Monitoreo</summary>
+            </details>
+            <details id="comunicacionSeguridadOption" class="deshabilitar-opciones">
+                <summary class="sin-opciones"> Comunicación</summary>
+            </details>
+            <details id="patrullajeOption" class="deshabilitar-opciones">
+                <summary><span>Gestionar Patrullaje</span></summary>
+                <ul>
+                    <li>Asignar a Patrullas</li>
+                    <li>Consultar Patrullaje</li>
+                </ul>
+            </details>
+            <details id="auditoriaSeguridadOption" class="deshabilitar-opciones">
+                <summary class="sin-opciones">Auditoría</summary>
+            </details>
+        </div>
+        <!-- ####### OPCIONES MODULO IOT ####### -->
+        <div id="opcionesModuloIOT" style="display: none;">
+            <details id="identificadorIOTOption">
+                <summary><span>Sensores</span></summary>
+                <ul>
+                    <li data-url="identificadores/search">Búsqueda de Sensores</li>
+                    <li data-url="identificadores/crear" style="display: none;">Alta Sensor</li>
+                    <li data-url="identificadores/orden/create">Generar Orden desde Sensor</li>
+                </ul>
+            </details>
+            <details id="reportesIOTOption" style="display: none;">
+                <summary><span>Consultar reportes</span></summary>
+                <ul>
+                    <li data-url="reportes/registro-solicitudes" style="display: none;">Reporte registro de Solicitudes</li>
+                    <li data-url="reportes/tablero-solicitudes-personas" style="display: none;">Reporte Tablero Solicitudes y Personas</li>
+                    <li data-url="reportes/area-tipo" style="display: none;">Reporte Incidentes por Area por Tipo</li>
+                    <li data-url="reportes/area-tipo-estado" style="display: none;">Reporte Incidentes por Area por Tipo por Estado por Prioridad por Origen</li>
+                    <li data-url="reportes/responsable-tipo-estado" style="display: none;">Reporte Responsable por Incidentes Por Estado</li>
+                    <li data-url="reportes/usuario-tipo-estado" style="display: none;">Reporte Usuario Por Incidentes Por Estado</li>
+                    <li data-url="reportes/incidentes-mapa" style="display: none;">Mapa de Incidentes</li>
+                    <li data-url="reportes/dashboard" style="display: none;">Incidentes Dashboard</li>
+                    <li data-url="reportes/dashboard2" style="display: none;">Incidentes Dashboard II</li>
+                    <li data-url="reportes/tiempo-gestion" style="display: none;">Cumplimiento Incidentes</li>
+                    <li data-url="reportes/conformidad-ciudadano" style="display: none;">Conformidad Ciudadano Ciudadano</li>
+                    <li data-url="reportes/tablero-comando" style="display: none;">Tablero de Comando</li>
+                    <li data-url="reportes/registro-incidentes" style="display: none;">Reporte Registro de incidentes</li>
+                    <li data-url="reportes/encuesta-encuestadores" style="display: none;">Encuestadores</li>
+                    <li data-url="reportes/encuestas" style="display: none;">Encuestas</li>
+                </ul>
+            </details>
+        </div>
+        <!-- <summary id="valorarMenu" class="sin-opciones"><span>¿Te gustó el cambio en el menú?</span></summary> -->
+    </div>
+    <div class="sidebar-footer">
+        <label class="sidebar-ultimoAcceso" id="ultimoAcceso">Último Ingreso: 27/01/2026 12:17</label>
+        <div class="footer-municipio">Municipalidad de Catamarca</div>
+    </div>
+</div>
+
+<div id="modalValoracion" style="display: none;">
+    <div class="modal-val-container">
+        <div class="modal-val-opciones">
+            <div class="cerrar-modal">
+                <img src="img/times-solid.svg" alt="boton cerrar" title="Cerrar">
+            </div>
+            <h3>¿Te gustó el cambio en el menú?</h3>
+            <div class="modal-val-opciones-botones">
+                <div class="val-positivo">
+                    <input type="radio" id="valPositiva" name="valoracion" value="13935">
+                    <label for="positivo">Si</label>
+                    <img src="img/thumbs-up.svg" alt="Pulgar arriba">
+                </div>
+                <div class="val-negativo">
+                    <input type="radio" id="valNegativa" name="valoracion" value="13936">
+                    <label for="negativo">No</label>
+                    <img src="img/thumbs-down.svg" alt="Pulgar abajo">
+                </div>
+            </div>
+            <h6>*Debe seleccionar una opción</h6>
+        </div>
+        <div class="modal-val-comentario">
+            <div>
+                <h3>Comentario</h3>
+            </div>
+            <textarea id="valoracionText" cols="15" rows="5"></textarea>
+        </div>
+        <button id="btnEnviarVal">Enviar</button>
+    </div>
+</div>
+</div></section>
+          <section id="home-alertas-masivas" class="hidden"><div><div class="home-alertas-masivas-container">
+	<div class="logo-home-notificaciones"><img id="logoMunicipio" src="img/Hor_Blanco.png" alt="">
+		<!-- <img id="logoMunicipio" src="img/Hor_Blanco.png" alt=""> -->
+		<div id="esloganMunicipio">
+			<!-- <div id="lineaDivisoria"></div> -->
+			<!-- <p>La gestión de la</p>
+			<p>Ciudad en tus manos</p> -->
+		<div id="lineaDivisoria"></div><p>La gestión en tus manos</p></div>
+	</div>
+	<div class="mensajes-masivos-container" style="display: none;">
+		<div style="display: flex; justify-content: space-between;">
+			<div class="dfr">
+				<h4 style="margin-left: 30px;">Notificaciones Masivas<span id="cantTotalMensajesHome" style="margin-left: 10px;padding: 2px 8px;border-radius: 20px;border: 1px solid #9EABB9; font-size: 12px; color: #8b8b8b;"></span></h4>
+				<div class="dfr ai-c">
+					<h5 style="margin-left: 50px; font-weight: 100; color: gray;">Mostrar solo no leídas</h5>
+					<label class="custom-switch" style="margin-left: 8px;">
+						<input id="checkAlertasNoLeidas" type="checkbox" checked="">
+						<span class="slider-custom-switch round"></span>
+					</label>
+				</div>
+			</div>
+			<div class="cerrar-modal" style="position: unset;margin-right: 20px;margin-top: 5px;">
+				<img src="img/times-solid.svg" alt="boton cerrar" title="Cerrar">
+			</div>
+		</div>
+		<div id="gridMensajesMasivos" class="backgrid-container"></div>
+		<!-- <div id="gridMensajesMasivos"></div> -->
+		<div id="mensajes-masivos-paginator"></div>
+	</div>
+	
+	<div class="row-fluid" id="divBtnChatAi" style="display: none; float: right;">
+		<div class="span12" style="text-align: right; float: right;">
+			<button id="btnChatAi" class="btn-chat-ai">
+				🗯️ Chat Soporte
+			</button>
+			<div id="chatPopup" class="chat-popup shadow">
+				<p><strong>¿Tenés dudas?</strong></p>
+				<p>Iniciá un chat con Soporte acá 👇</p>
+				<a href="https://ai.munidigital.com/ia/chat" target="_blank" class="chat-link">Ir al chat de soporte</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row-fluid" id="divPolicy" style="display: none;">
+		<div class="col_12" style="float: right; text-align: center;">
+			<div><a id="policy-link" href="https://munidigital.com/politica_de_seguridad_ens.pdf" target="_blank" style="color:#4CAF50; text-decoration: underline;">Política de
+					Seguridad</a></div>
+			<div>
+				<p id="policy-date" style="font-size: small; color: white;">20/05/2024</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+</div></section>
+          <div id="page" style="padding-top: 50px;"><div><!-- MENU LATERAL -->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left hidden" id="cbp-spmenu-s1" style="background-color: rgb(1, 99, 219);">
+	<div class="top_logo_menu">
+		<button id="btnShowLeftMenu" class="icon_menu">Show/Hide Left Slide Menu</button>
+		<div class="logo"><a href="#menu-inicio">Menu Inicio</a></div>
+	</div>
+</nav>
+
+<div class="ot_container">
+
+	<div id="header" class="ot_title_top"><div>
+<div class="section">Gestionar Órdenes de Trabajo</div>
+<div class="logout hidden"><a href="#logout" class="out">Salir</a></div>
+<div class="user hidden">aalvarez</div>
+<button id="boton_menu_principal" class="hidden"><img id="home_icon_img" alt="Ir al menú" src="https://munidigital.com/app/img/home-icon.png"></button>
+</div></div>
+
+	<div class="row rowDetalleOT" style="margin-bottom:0px;">
+		<div class="ot_shop_login_form">
+			<div class="row-fluid">
+				<div class="span1">
+					<label for="ordenFechaCreacionDesde">Fecha desde</label><br>
+					<input type="text" id="ordenFechaCreacionDesde" name="ordenFechaCreacionDesde">
+				</div>
+				<div class="span1">
+					<label for="ordenFechaCreacionHasta">Fecha hasta</label><br>
+					<input type="text" id="ordenFechaCreacionHasta" name="ordenFechaCreacionHasta">
+				</div>
+				<div class="span2">
+					<label for="ordenBarrio">Barrio</label><br>
+                    <select id="ordenBarrio" name="ordenBarrio" multiple="" size="1" class="jqmsLoaded" style="display: none;"><option value="1764">9 de Julio</option><option value="1765">Achachay</option><option value="1766">Avellaneda y Tula</option><option value="1767">Banda de Varela</option><option value="1768">Centro</option><option value="1769">Choya</option><option value="1780">Choya</option><option value="1770">J.M.de Rosas</option><option value="1771">Jorge Bermudez</option><option value="1772">La Chacarita</option><option value="23668">La Estancita</option><option value="1773">La Tablada</option><option value="1774">Los Ejidos</option><option value="1775">Luis Franco</option><option value="1776">Manuel de Salazar</option><option value="1777">Norte</option><option value="1778">Romis Raiden</option><option value="1779">Sud</option><option value="1781">Valle Chico</option><option value="1782">Villa Cubas</option><option value="1783">Villa Parque Chacabuco</option><option value="1784">Zona Industrial (Pantanillo)</option></select><div class="ms-options-wrap" style="position: relative;"><button>Todos</button><div class="ms-options" style="min-height: 200px; max-height: 371px; overflow: auto; display: none;"><div class="ms-search"><input type="text" value="" placeholder="Buscar..."></div><a href="#" class="ms-selectall global" style="text-transform: unset;text-decoration: underline;font-size: 13px">Seleccionar todo</a><ul style="column-gap: 0px;"><li class=""><label for="ms-opt-2" style="padding-left: 68px;"><input type="checkbox" value="1764" title="9 de Julio" id="ms-opt-2">9 de Julio</label></li><li class=""><label for="ms-opt-3" style="padding-left: 68px;"><input type="checkbox" value="1765" title="Achachay" id="ms-opt-3">Achachay</label></li><li class=""><label for="ms-opt-4" style="padding-left: 68px;"><input type="checkbox" value="1766" title="Avellaneda y Tula" id="ms-opt-4">Avellaneda y Tula</label></li><li class=""><label for="ms-opt-5" style="padding-left: 68px;"><input type="checkbox" value="1767" title="Banda de Varela" id="ms-opt-5">Banda de Varela</label></li><li class=""><label for="ms-opt-6" style="padding-left: 68px;"><input type="checkbox" value="1768" title="Centro" id="ms-opt-6">Centro</label></li><li class=""><label for="ms-opt-7" style="padding-left: 68px;"><input type="checkbox" value="1769" title="Choya" id="ms-opt-7">Choya</label></li><li class=""><label for="ms-opt-8" style="padding-left: 68px;"><input type="checkbox" value="1780" title="Choya" id="ms-opt-8">Choya</label></li><li class=""><label for="ms-opt-9" style="padding-left: 68px;"><input type="checkbox" value="1770" title="J.M.de Rosas" id="ms-opt-9">J.M.de Rosas</label></li><li class=""><label for="ms-opt-10" style="padding-left: 68px;"><input type="checkbox" value="1771" title="Jorge Bermudez" id="ms-opt-10">Jorge Bermudez</label></li><li class=""><label for="ms-opt-11" style="padding-left: 68px;"><input type="checkbox" value="1772" title="La Chacarita" id="ms-opt-11">La Chacarita</label></li><li class=""><label for="ms-opt-12" style="padding-left: 68px;"><input type="checkbox" value="23668" title="La Estancita" id="ms-opt-12">La Estancita</label></li><li class=""><label for="ms-opt-13" style="padding-left: 68px;"><input type="checkbox" value="1773" title="La Tablada" id="ms-opt-13">La Tablada</label></li><li class=""><label for="ms-opt-14" style="padding-left: 68px;"><input type="checkbox" value="1774" title="Los Ejidos" id="ms-opt-14">Los Ejidos</label></li><li class=""><label for="ms-opt-15" style="padding-left: 68px;"><input type="checkbox" value="1775" title="Luis Franco" id="ms-opt-15">Luis Franco</label></li><li class=""><label for="ms-opt-16" style="padding-left: 68px;"><input type="checkbox" value="1776" title="Manuel de Salazar" id="ms-opt-16">Manuel de Salazar</label></li><li class=""><label for="ms-opt-17" style="padding-left: 68px;"><input type="checkbox" value="1777" title="Norte" id="ms-opt-17">Norte</label></li><li class=""><label for="ms-opt-18" style="padding-left: 68px;"><input type="checkbox" value="1778" title="Romis Raiden" id="ms-opt-18">Romis Raiden</label></li><li class=""><label for="ms-opt-19" style="padding-left: 68px;"><input type="checkbox" value="1779" title="Sud" id="ms-opt-19">Sud</label></li><li class=""><label for="ms-opt-20" style="padding-left: 68px;"><input type="checkbox" value="1781" title="Valle Chico" id="ms-opt-20">Valle Chico</label></li><li class=""><label for="ms-opt-21" style="padding-left: 68px;"><input type="checkbox" value="1782" title="Villa Cubas" id="ms-opt-21">Villa Cubas</label></li><li class=""><label for="ms-opt-22" style="padding-left: 68px;"><input type="checkbox" value="1783" title="Villa Parque Chacabuco" id="ms-opt-22">Villa Parque Chacabuco</label></li><li class=""><label for="ms-opt-23" style="padding-left: 68px;"><input type="checkbox" value="1784" title="Zona Industrial (Pantanillo)" id="ms-opt-23">Zona Industrial (Pantanillo)</label></li></ul></div></div>
+				</div>
+				<div class="span2">
+					<label id="ordenZonaLabel" for="ordenZona">Zona OT</label><br>
+					<select id="ordenZona" name="ordenZona"><option value="0">Todas</option><option value="450">Catamarca</option></select>
+				</div>
+				<div class="span2">
+					<label for="ordenEstado">Estado OT</label><br>
+					<select id="ordenEstado" name="ordenEstado"><option value="0">Todos</option><option value="3">Cancelada</option><option value="2">En Proceso</option><option value="4">Finalizada</option><option value="1">Generada</option></select>
+				</div>
+				<div class="span1">
+					<label for="ordenNro">Nro OT</label><br>
+					<input type="text" name="ordenNro">
+				</div>
+				<div class="span2">
+					<label for="soloVencidas">Solo vencidas</label><br>
+					<input type="checkbox" style="width: auto;" name="soloVencidas">
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span2">
+					<label id="incidenteAreaServicioLabel" for="incidenteAreaServicio">Área de servicio 
+						<help-icon id="areaServicioHelp" text="Seleccionar el area de servicio que correesponda"></help-icon></label><br>
+					<select id="incidenteAreaServicio" name="incidenteAreaServicio" multiple="" size="1" class="jqmsLoaded" style="display: none;"><option value="4814">Alumbrado</option></select><div class="ms-options-wrap" style="position: relative;"><button>Todas</button><div class="ms-options" style="min-height: 200px; max-height: 302px; overflow: auto; display: none;"><div class="ms-search"><input type="text" value="" placeholder="Buscar..."></div><a href="#" class="ms-selectall global" style="text-transform: unset;text-decoration: underline;font-size: 13px">Seleccionar todo</a><ul style="column-gap: 0px;"><li class=""><label for="ms-opt-1" style="padding-left: 68px;"><input type="checkbox" value="4814" title="Alumbrado" id="ms-opt-1">Alumbrado</label></li></ul></div></div>
+				</div>
+				<div class="span2">
+					<label id="incidenteTipoIncidenteLabel" for="incidenteTipoIncidente">Tipo Incidente 
+					<help-icon id="tipoIncidenteHelp" text="Depende del Area de Servicio seleccionada"></help-icon></label><br>
+					<p id="divSelTipo"><select id="incidenteTipoIncidente" name="incidenteTipoIncidente" multiple="" size="1"></select></p>
+				</div>
+				<div class="span2">
+					<label id="zonaAdministrativaLabel" for="zonaAdministrativa">Zona Administrativa</label><br>
+					<select id="zonaAdministrativa" name="zonaAdministrativa"><option value="0">Seleccionar</option></select>
+				</div>
+				<div class="span2">
+					<label for="responsableNombre">Responsable</label><br>
+					<input type="text" name="responsableNombre">
+				</div>
+			</div>
+			<div class="row-fluid" style="margin-top:5px; margin-bottom:20px">
+				<div id="filtrosDniContainer" style="display: none;">
+					<div class="span2">
+						<label for="tipoDocumento">Tipo de Documento</label>
+						<select id="tipoDocumento" name="tipoDocumento" class="validarCampo"></select>
+					</div>
+					<div class="span2">
+						<label for="dni">DNI / LC / LE / Pas. / Prec. / CUIT</label>
+						<input style="height: 33px;" id="dni" name="dni" type="number" placeholder="Ingrese documento (solo números)">
+					</div>
+				</div>
+				<a href="javascript:void(0)" id="btnBuscar" class="botones boton_buscar" title="Buscar" style="float: right;">Buscar</a>
+				<a href="javascript:void(0)" id="btnCancelar" class="botones boton_cancelar" title="Cancelar" style="float: right;">Cancelar</a>
+				<a id="btnExportar" href="javascript:void(0)" class="botones boton_exportar" title="Exportar" style="float: right;">EXPORTAR</a>
+				<a id="btnLimpiarFiltros" href="javascript:void(0)" class="botones boton_limpiar" title="Permite limpiar los filtros utilizados" style="float: right;">LIMPIAR FILTROS</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Este es un select dummy que se usa para luego poder clonarlo y mostrarlo en caso que el usuario
+   quiera editar el estado de una orden -->
+	<select id="ordenEstadosDummy" name="ordenEstadosDummy" style="display:none">
+	</select>
+
+	<!-- Este es un select usa solo para luego poder recuperar la descripcion de un estado de 
+   de un incidente al hacer la actualizacion de la orden -->
+	<select id="incidenteEstadosDummy" name="incidenteEstadosDummy" style="display:none">
+	</select>
+
+	<div class="row-fluid">
+	</div>
+
+	<div class="row-fluid" style="margin-top: 35px">
+		<div class="span4">
+			<span id="ordenes-trabajo-filter"><form class="backgrid-filter form-search"><span class="search">&nbsp;</span><input type="search" name="q" placeholder="Buscar Observaciones"><a class="clear" data-backgrid-action="clear" href="#" style="display: none;">×</a></form></span>
+		</div>
+		<div class="span4" id="ordenes-trabajo-paginator"><div class="backgrid-paginator"><ul><li class="disabled"><a href="#" title="First">❮❮</a></li><li class="disabled"><a href="#" title="Previous">❮</a></li><li class="active"><a href="#" title="Page 1">1</a></li><li class="disabled"><a href="#" title="Next">❯</a></li><li class="disabled"><a href="#" title="Last">❯❯</a></li></ul></div></div>
+	</div>
+	
+	<div style="height: 65vh;">
+		<div id="ordenes-trabajo-grid" class="backgrid-container" style="max-height: 85%; height: auto;"><table class="backgrid"><thead><tr><th class="sortable renderable id"><a>Nro OT<b class="sort-caret"></b></a></th><th class="sortable renderable fechaAlta"><a>Fecha Creación<b class="sort-caret"></b></a></th><th class="sortable renderable fechaVto"><a>Fecha vto.<b class="sort-caret"></b></a></th><th class="sortable renderable barrioDescripcion"><a>Barrio<b class="sort-caret"></b></a></th><th class="sortable renderable zonaDescripcion"><a>Zona<b class="sort-caret"></b></a></th><th class="sortable renderable responsableNombreCompleto"><a>Responsable<b class="sort-caret"></b></a></th><th class="sortable renderable observaciones"><a>Observaciones<b class="sort-caret"></b></a></th><th class="sortable renderable estadoDescripcion"><a>Estado<b class="sort-caret"></b></a></th><th class="sortable renderable cantidadIncidentesAsociados"><a>Inc. Asoc<b class="sort-caret"></b></a></th><th class="sortable renderable id"><a>Asignar Recursos<b class="sort-caret"></b></a></th><th class="sortable renderable id"><a>Imprimir<b class="sort-caret"></b></a></th><th class="sortable renderable id"><a>Mensajes<b class="sort-caret"></b></a></th></tr></thead><tbody><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/720882" title="720882" target="_self">720882</a></td><td class="string-cell sortable renderable">27/01/2026 12:02</td><td class="string-cell sortable renderable">03/02/2026 00:00</td><td class="string-cell sortable renderable">J.M.de Rosas,,Luis Franco,,Sud</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">10</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/720882/editar" title="720882" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/720882/manage" title="720882" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/720882/manage" title="720882" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/720536" title="720536" target="_self">720536</a></td><td class="string-cell sortable renderable">27/01/2026 07:44</td><td class="string-cell sortable renderable">03/02/2026 00:00</td><td class="string-cell sortable renderable">Manuel de Salazar</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">12</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/720536/editar" title="720536" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/720536/manage" title="720536" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/720536/manage" title="720536" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718825" title="718825" target="_self">718825</a></td><td class="string-cell sortable renderable">23/01/2026 09:21</td><td class="string-cell sortable renderable">30/01/2026 00:00</td><td class="string-cell sortable renderable">Villa Cubas</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">10</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718825/editar" title="718825" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718825/manage" title="718825" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718825/manage" title="718825" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718403" title="718403" target="_self">718403</a></td><td class="string-cell sortable renderable">22/01/2026 11:44</td><td class="string-cell sortable renderable">29/01/2026 00:00</td><td class="string-cell sortable renderable">Achachay,,Villa Cubas</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">10</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718403/editar" title="718403" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718403/manage" title="718403" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718403/manage" title="718403" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718397" title="718397" target="_self">718397</a></td><td class="string-cell sortable renderable">22/01/2026 11:35</td><td class="string-cell sortable renderable">29/01/2026 00:00</td><td class="string-cell sortable renderable">Manuel de Salazar</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">7</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/718397/editar" title="718397" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718397/manage" title="718397" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/718397/manage" title="718397" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr><tr><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/716900" title="716900" target="_self">716900</a></td><td class="string-cell sortable renderable">20/01/2026 11:29</td><td class="string-cell sortable renderable">27/01/2026 00:00</td><td class="string-cell sortable renderable">Norte</td><td class="string-cell sortable renderable">Catamarca</td><td class="string-cell sortable renderable"></td><td class="sortable renderable" title=""><p id="toggleShowMore" style="cursor: pointer; margin:0;" class="md-three-lines"></p></td><td class="string-cell sortable renderable">Generada</td><td class="integer-cell sortable renderable">10</td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#/ordenes/716900/editar" title="716900" target="_self"><i class="md-icon md-icon-tasks"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/716900/manage" title="716900" target="_self"><i class="md-icon md-icon-documentos"></i></a></td><td class="uri-cell sortable renderable"><a tabindex="-1" href="#undefined/716900/manage" title="716900" target="_self"><i class="md-icon md-icon-messages"></i></a></td></tr></tbody></table></div>
+		<div class="row-fluid" style="margin-top: 10px">
+			<div class="span1">
+				<span id="ot-count" class="label label-inverse">Total: 6</span>
+			</div>
+			<div class="span1" style="margin-right: 10px;">
+				<span id="ot-generada-count" class=" label label-info ">Generadas: 6</span>
+			</div>
+			<div class="span1" style="margin-right: 10px;">
+				<span id="ot-enproceso-count" class=" label label-warning ">En Proceso: 0</span>
+			</div>
+			<div class="span1" style="margin-right: 10px;">
+				<span id="ot-finalizada-count" class=" label label-success ">Finalizadas: 0</span>
+			</div>
+			<div class="span1" style="margin-right: 10px;">
+				<span id="ot-cancelada-count" class=" label label-important ">Canceladas: 0</span>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="clearfix"></div></div></div> <!--Este div es el que posibilita el SPA (Single Page Application) -->
+          <section id="single-spa-application:@munidigital/mf-app" class="hidden single-spa-application"></section>
+        </div>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i["GoogleAnalyticsObject"] = r;
+                (i[r] =
+                    i[r] ||
+                    function() {
+                        (i[r].q = i[r].q || []).push(arguments);
+                    }),
+                    (i[r].l = 1 * new Date());
+                (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(
+                window,
+                document,
+                "script",
+                "//www.google-analytics.com/analytics.js",
+                "ga"
+            );
+            ga("create", "UA-53454220-1", "auto");
+            ga("send", "pageview");
+        </script>
+        <!-- End Google Analytics -->
+
+        <script src="scripts/868ec950.vendor.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=true&amp;key=AIzaSyBqVanxM5PCpDXnd5Npnnu8AIWoOoS7dPw&amp;libraries=places"></script>
+        <script src="https://www.google.com/jsapi"></script>
+
+        <script src="scripts/28f4c68d.main.js"></script>
+
+        <!-- Single SPA Config -->
+        <script type="systemjs-importmap" src="scripts/4f0f428d.systemjs-imports.json"></script>
+        <script src="https://cdn.jsdelivr.net/npm/import-map-overrides/dist/import-map-overrides.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.js"></script>
+
+        <script src="scripts/2062f341.main2.js"></script>
+
+
+    
+</body></html>
