@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const { processAndSend } = require('./googleSheetsProcessor');
 
 const URL = 'https://id.munidigital.com/security/realms/internal/protocol/openid-connect/auth?response_type=code&client_id=munidigital-web&redirect_uri=https%3A%2F%2Fmunidigital.com%2FMuniDigitalCore%2Fopenid-connect%2Fmuni-auth%2Fcallback&state=bfm5xV3olPCx0qOgYUHE308wrK5JtQVCj8xTsyfEBgl9gONDvDsrSrvbxhqzPFKI#/menu-inicio';
 
@@ -150,6 +151,20 @@ async function main() {
     await page.goto(navigateTo, { waitUntil: 'networkidle2' });
     
     await new Promise(resolve => setTimeout(resolve, 5000));
+    
+    // Procesar y enviar a Google Sheets si hay datos capturados
+    if (capturedJson && process.env.GOOGLE_SHEETS_ID) {
+      console.log('Procesando datos para Google Sheets...');
+      try {
+        await processAndSend(
+          `order_${targetOrderId}_data.json`,
+          process.env.GOOGLE_SHEETS_ID,
+          process.env.GOOGLE_SHEETS_RANGE || 'Sheet1!A1'
+        );
+      } catch (error) {
+        console.error('Error al procesar Google Sheets:', error.message);
+      }
+    }
   }
 
   await browser.close();
