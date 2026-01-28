@@ -8,7 +8,7 @@ async function main() {
   const password = process.env.MUNI_PASS || 'Alvarez-a21';
   const headless = process.env.MUNI_HEADLESS === '1';
   const slowMo = process.env.MUNI_SLOWMO ? parseInt(process.env.MUNI_SLOWMO, 10) : 0;
- console.log(`Using useraname: ${username}`);
+ console.log(`Using usessraname: ${username}`);
   const browser = await puppeteer.launch({ headless, ...(slowMo ? { slowMo } : {}) });
   const page = await browser.newPage();
   
