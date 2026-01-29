@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Orden 721307 - Puntos Alumbrado</name>
+    <description>Puntos generados desde order_721307_data.json</description>
+
+    <!-- Incidente 11465387 -->
+    <Placemark>
+      <name>Incidente 11465387 - Portal 1</name>
+      <description><![CDATA[Observaciones: B° Portal del Norte 1, calle Volcán San Ojo del Salado, entre Sierra de Quilmes y Sierra de Chango Real.<br/>Estado: Notificado en OT<br/>Prioridad: Media<br/>Adjunto: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.7680167,-28.4190352,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Incidente 11465391 -->
+    <Placemark>
+      <name>Incidente 11465391 - Sagrada Familia</name>
+      <description><![CDATA[Observaciones: 2 postes sin luminaria. B° Portal del Norte 1, calle Sagrada Familia entre Sierra de Quilmes y Sierra del Chango Real.<br/>Estado: Notificado en OT<br/>Prioridad: Media<br/>Adjunto: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.7682640031635,-28.423491758369753,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Incidente 11465099 -->
+    <Placemark>
+      <name>Incidente 11465099 - Portal Belgica</name>
+      <description><![CDATA[Observaciones: B° Portal del Norte, calle Portal Bélgica y esquina Portal 7<br/>Estado: Notificado en OT<br/>Prioridad: Media<br/>Adjunto: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.7755434,-28.4212963,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Incidente 11465132 -->
+    <Placemark>
+      <name>Incidente 11465132 - Portal</name>
+      <description><![CDATA[Observaciones: B° Portal del Norte, calle Volcán San Ojo del Salado, entre Cerro Galán y Sierra Nevada.<br/>Estado: Notificado en OT<br/>Prioridad: Media<br/>Adjunto: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.7708708,-28.418628,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Incidente 11465125 -->
+    <Placemark>
+      <name>Incidente 11465125 - Portal</name>
+      <description><![CDATA[Observaciones: B° Portal del Norte, calle Cerro Galán, entre volcán Walter Penk y Sagrada Familia.<br/>Estado: Notificado en OT<br/>Prioridad: Media<br/>Adjunto: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.77156855179055,-28.422553982148816,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Incidente 11465394 -->
+    <Placemark>
+      <name>Incidente 11465394 - Sagrada Familia</name>
+      <description><![CDATA[Observaciones: B° Portal del Norte 1, calle Sagrada Familia entre Cerro Galán y Sierra Nevada. 2 postes sin luminaria.<br/>Estado: Cumplido<br/>Prioridad: Media<br/>Adjuntos: https://munidigital.com/MuniDigitalCore/munidigitalcdn/fotos/27/141]]></description>
+      <Point>
+        <coordinates>-65.77108032262913,-28.42311197830927,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>

@@ -1,0 +1,19 @@
+Voy a crear un archivo KML con los puntos extraídos del JSON y añadirlo al repo. Luego te indico cómo importarlo en una app offline (recomiendo OsmAnd).
+
+Created 3 todos
+
+Edited
+order_721307_points.kml+63-1
+He creado el archivo KML con los puntos: order_721307_points.kml
+
+Siguientes pasos (rápido):
+
+App recomendada: OsmAnd (disponible en Play Store) — soporta mapas offline e importación de KML/GPX.
+Descargar mapa offline: en OsmAnd → Descargar mapas → Sudamérica → Argentina → Catamarca.
+Copiar KML a la tablet: conecta la tablet por USB o usa Drive/USB, y coloca order_721307_points.kml en Download/ o una carpeta accesible.
+Importar en OsmAnd: Menu → Mis lugares / Importar → selecciona el KML (si no ves la opción, instala el plugin de importación de tracks/POIs en OsmAnd).
+Ver sin conexión: una vez descargado el mapa y cargado el KML, los puntos se mostrarán sobre el mapa offline.
+¿Quieres que también:
+
+genere un script (Node.js) para convertir automáticamente otros JSON a KML?
+o que prepare un ZIP listo para descargar con el KML y una breve guía paso a paso en español?
